@@ -1,0 +1,98 @@
+<div class="background-image" *ngIf="faixa" 
+     [class]="'background-image ' + (faixa.imageClass || 'default-bg')"
+     [ngStyle]="{ 'background-image': 'url(' + faixa.background + ')' }">
+</div>
+
+<div class="introducao" *ngIf="faixa">
+  <h1>{{ faixa.nome }} ({{ faixa.grau }})</h1>
+  <p [innerHTML]="faixa.introducao || faixa.introducao"></p>
+</div>
+
+<div class="conteudo-faixa">
+  <div class="secao-tecnica" *ngIf="faixa">
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <ng-container *ngFor="let section of faixa.sections">
+          <div class="cabecalho">
+            <div class="titulo-container">
+              <h2 class="titulo-principal" [innerHTML]="section.title"></h2>
+              <p class="titulo-traducao" [innerHTML]="section.translation"></p>
+            </div>
+            <div class="tecnica-descricao" [innerHTML]="section.description"></div>
+          </div>
+          <div class="comando-container">
+            <div class="grupo-tecnicas">
+              <ng-container *ngFor="let t of section.tecnicas">
+                <app-tecnica-card
+  [id]="t.id"  
+  [tecnica]="t"
+  [active]="activeCardId === t.id"
+  (openVideo)="openVideo(t)"
+  (openText)="openText($event, t.id)"
+  (onNotaClick)="scrollToNote($event)">
+</app-tecnica-card>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+
+      <div class="conteudo-janela" *ngIf="mode === 'inline'">
+        <app-video-modal
+          [open]="!!activeType"
+          [mode]="mode"
+          [type]="activeType || 'video'"
+          [videoId]="activeVideoId"
+          [htmlText]="activeTextoHtml"
+          [noteText]="activeNota"
+          (close)="closeModal()">
+        </app-video-modal>
+      </div>
+    </div>
+  </div>
+  <h2 class="titulo-principal">Notas</h2>
+  <div class="secao-referencias secao-referencias-estilo" id="referencias">
+    <div class="comando-container">     
+      <ng-container *ngIf="faixa">
+        <div *ngFor="let section of faixa.sections">
+          <div *ngFor="let tecnica of section.tecnicas">
+            <div *ngIf="tecnica.notaId" [id]="'nota-' + tecnica.notaId" class="nota-item">
+              <p>  
+                <span class="nota-numero" (click)="scrollToTecnicaOrigin(tecnica.notaId)">
+                  {{ tecnica.notaId }}
+                </span>
+                <span class="nota-texto" [innerHTML]="tecnica.nota"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
+  <h2 class="titulo-principal">Referências</h2>
+  <div class="bibliografia secao-referencias-estilo" id="bibliografia-id">
+    <div class="cabecalho">
+      <div class="titulo-container"></div>
+    </div>
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <ng-container *ngIf="faixa && faixa.referencias && faixa.referencias.length">
+            <div [innerHTML]="sanitizedReferencias"></div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-video-modal
+  *ngIf="mode === 'overlay'"
+  [open]="!!activeType"
+  [mode]="mode"
+  [type]="activeType || 'video'"
+  [videoId]="activeVideoId"
+  [htmlText]="activeTextoHtml"
+  [noteText]="activeNota"
+  (close)="closeModal()">
+</app-video-modal>

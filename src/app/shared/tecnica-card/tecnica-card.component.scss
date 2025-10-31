@@ -1,0 +1,102 @@
+.card {
+  background: #fff;
+  border: 1px solid #e5c9a0;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+/* Modificamos a regra do hover do card para que ele não mude de cor quando o botão está em hover */
+.card:hover:not(:has(.nota-botao:hover)) { 
+  background: #c4ffc2;
+}
+.card.active { background: #c4ffc2; }
+.titulo { font-weight: 700; color: #e47003; font-style: italic; }
+.traducao { color: #af0043; font-style: normal; }
+.descricao {
+  font-weight: bold;
+  color: #af0043;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para o botão de nota */
+.nota-botao {
+  position: absolute;
+  top: -10px;
+  right: -21px;
+  background-color: rgba(255, 248, 242, .8);
+  border: 0px solid #ccc;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 10;
+  outline: none;
+  transition: background-color 0.2s;
+  font-size: 0.65em;
+  font-weight: bold;
+  color: #af0043;
+  margin-right: 5px;
+}
+
+/* O botão de nota deve sempre ficar verde ao ser clicado */
+.nota-botao:hover {
+  background-color: #90ee90; /* Verde */
+}
+
+.nota-botao:active {
+  background-color: #90ee90;
+}
+.botoes-container {
+  position: absolute;
+  top: -10px;
+  right: -40px; /* Ajustado para acomodar dois botões */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 10;
+}
+
+/* Botão de áudio */
+.audio-botao {
+position: absolute;
+  top:30px;
+  right: -21px;
+  background-color: rgba(255, 248, 242, .8);
+  border: 0px solid #ccc;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 10;
+  outline: none;
+  transition: background-color 0.2s;
+  font-size: 0.65em;
+  font-weight: bold;
+  color: #af0043;
+  margin-right: 5px;
+}
+
+.audio-botao:hover {
+  background-color: #87ceeb; /* Azul claro no hover */
+}
+
+.audio-botao.playing {
+  background-color: #90ee90; /* Verde quando está tocando */
+  color: #006400;
+}
+
+/* Ajuste o botão de nota existente para ficar acima */
+
+
+.nota-botao:hover {
+  background-color: #90ee90;
+}
+
+.nota-botao:active {
+  background-color: #90ee90;
+}

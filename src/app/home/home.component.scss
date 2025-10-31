@@ -1,0 +1,333 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #302170;
+  font-family: 'Times New Roman', Times, serif;
+  border-left: 4px solid #af0043;
+  border-radius: 8px;
+  position: relative;
+}
+
+.home-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(250, 243, 230);
+  z-index: -1;
+}
+
+.conteudo-principal {
+  flex: 3;
+  padding-right: 40px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #e47003;
+}
+
+.intro p {
+  line-height: 1.6;
+  font-size: 1.1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.galeria-pessoas {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.pessoa {
+  text-align: center;
+  max-width: 200px;
+}
+
+.pessoa img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.pessoa img:hover {
+  transform: scale(1.05);
+}
+
+.pessoa p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.arvore-legado-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.arvore-legado-container p {
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+.download-link-arvore {
+  display: inline-block;
+  cursor: pointer;
+  max-width: 40%;
+  transition: transform 0.3s ease;
+}
+
+.download-link-arvore:hover {
+  transform: scale(1.02);
+}
+
+.arvore-legado {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.arvore-editada {
+  border: 1px solid #af0043;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.arvore-editada:hover {
+  transform: scale(1.02);
+}
+
+/* ========== SEÇÃO DE FAIXAS ========== */
+.lista-faixas-container {
+  flex: 1;
+  padding-left: 20px;
+  
+  
+}
+
+.lista-faixas-container h2 {
+  font-size: 2em;
+  color: #e47003;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e47003;
+  padding-bottom: 10px;
+  
+}
+
+.lista-faixas {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.faixa-card {
+  background-color: #fff;
+  border: 1px solid #e5c9a0;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 2px solid #af0043;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; // ← IMPORTANTE: adicione position relative
+  overflow: hidden; // ← Para conter a barra
+}
+.faixa-barra {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 20%;
+  border-radius: 2px 0 0 2px;
+  transition: all 0.3s ease;
+}
+
+// Cores específicas para cada faixa
+.barra-faixa-branca {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.barra-faixa-cinza {
+  background-color: #9c9c9c;
+}
+
+.barra-faixa-amarela {
+  background-color: #FFD700;
+}
+
+.barra-faixa-laranja {
+  background-color: #FFA500;
+}
+
+.barra-faixa-verde-claro {
+  background-color: #90EE90;
+}
+
+.barra-faixa-verde {
+  background-color: #008000;
+}
+
+.barra-faixa-azul-claro {
+  background-color: #87CEEB;
+}
+
+.barra-faixa-azul {
+  background-color: #0000FF;
+}
+
+.barra-faixa-vermelha {
+  background-color: #FF0000;
+}
+
+.barra-faixa-vinho {
+  background-color: #972262;
+}
+
+// Efeito hover na barra
+.faixa-card:hover .faixa-barra {
+  width: 140px; // A barra fica um pouco maior no hover
+}
+
+
+.faixa-card:hover {
+  background-color: #c4ffc2;
+  transform: translateX(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.faixa-nome {
+  font-weight: bold;
+  color: #e47003;
+  font-size: 1.1em;
+  padding-right: 25px; // ← Adicione este padding para dar espaço à barra
+}
+
+/* ========== SEÇÃO DE TEXTOS (MESMO ESTILO DAS FAIXAS) ========== */
+.titulo-textos {
+  font-size: 2em;
+  color: #e47003;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e47003;
+  padding-bottom: 10px;
+}
+
+.lista-textos {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-card {
+  background-color: #fff;
+  border: 1px solid #e5c9a0;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 2px solid #af0043;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.texto-card:hover {
+  background-color: #c4ffc2;
+  transform: translateX(5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.texto-info h3 {
+  font-weight: bold;
+  color: #e47003;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/* Efeitos de foco e atividade */
+.faixa-card:active, .texto-card:active {
+  transform: scale(0.98);
+}
+
+/* Garantir que os estilos sejam aplicados */
+:host {
+  display: block;
+}
+
+/* ========== RESPONSIVIDADE ========== */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .conteudo-principal {
+    padding-right: 0;
+  }
+
+  .lista-faixas-container {
+    padding-left: 0;
+    border-left: none;
+    border-top: 2px solid #af0043;
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+
+  .download-link-arvore {
+    max-width: 80%;
+  }
+
+  .faixa-card, .texto-card {
+    padding: 12px;
+  }
+
+  .faixa-card:hover, .texto-card:hover {
+    transform: translateX(3px);
+  }
+
+  .titulo-textos {
+    margin-top: 30px;
+    font-size: 1.8em;
+  }
+}
+/* ========== TABLETS (769px - 1123px) ========== */
+@media (min-width: 769px) and (max-width: 1123px) {
+  .faixa-card {
+    padding: 12px;
+   
+  }
+
+  .faixa-barra {
+   
+    width: 40px;
+ left: 80%; // ← Ajuste fino na posição
+  }
+
+  .faixa-nome {
+    font-size: 1em;
+
+  }
+
+  .faixa-card:hover .faixa-barra {
+    height: 0.45em;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+<div *ngIf="mode === 'overlay' && open" class="overlay-backdrop" (click)="onBackdropClick($event)">
+  <div class="overlay-modal">
+    <div class="overlay-header">
+      <div *ngIf="noteText" class="overlay-note" [innerHTML]="safeNoteHtml"></div>
+      <button class="close-btn" (click)="onClose()" aria-label="Fechar">×</button>
+    </div>
+
+    <ng-container [ngSwitch]="type">
+      <div *ngSwitchCase="'video'" class="overlay-video">
+        <iframe *ngIf="safeVideoUrl" [src]="safeVideoUrl" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div *ngSwitchCase="'text'" class="overlay-text" [innerHTML]="safeHtml"></div>
+    </ng-container>
+  </div>
+</div>
+
+<div *ngIf="mode === 'inline'" class="inline-wrapper" [class.visible]="open">
+  <ng-container [ngSwitch]="type">
+    <div *ngSwitchCase="'video'" class="inline-aspect">
+      <iframe *ngIf="open && safeVideoUrl" [src]="safeVideoUrl" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div *ngSwitchCase="'text'" class="inline-aspect">
+      <div class="inline-text" [innerHTML]="safeHtml"></div>
+    </div>
+  </ng-container>
+</div>

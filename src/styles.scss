@@ -1,0 +1,157 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(250, 243, 230);
+  color: #302170;
+  line-height: 1.6;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+  font-size: 0.95em;
+}
+/* Estilos acadêmicos para as seções de Notas e Referências */
+
+
+// /* Regras para o parágrafo dentro dessas seções */
+// .secao-referencias-estilo p {
+//   font-size: 1.1em;
+//   line-height: 1.6;
+//   text-indent: -20px; /* Cria um recuo para a segunda linha */
+//   padding-left: 10px;
+// }
+
+// /* Estilo para o número da nota */
+// .nota-numero {
+//   font-weight: bold;
+//   color: #af0043;
+//   margin-right: 5px;
+// }
+
+// /* Estilo para a nota destacada */
+// .highlight-note {
+//   background-color: #c4ffc2 !important;
+//   padding: 4px 8px;
+//   border-radius: 3px;
+//   box-shadow: 0 0 0 2px #90ee90;
+//   animation: pulse-highlight 2s ease-in-out;
+// }
+
+// /* Adicione também este estilo para o número da nota */
+// .nota-numero {
+//   font-weight: bold;
+//   color: #af0043;
+//   margin-right: 8px;
+//   background-color: rgba(255,248,242,.8);
+//   padding: 2px 8px;
+//   border-radius: 50%;
+// }
+// .nota-item {
+//   margin-bottom: -45px;
+//   padding: 15px;
+//   border-bottom: 1px solid #e5c9a0;
+// }
+
+// .nota-item:last-child {
+//   border-bottom: none;
+// }
+
+// .nota-texto {
+//   display: inline; // Para que o destaque afete apenas o texto
+//   transition: background-color 0.3s ease;
+// }
+
+// .nota-numero.highlight-note {
+//   background-color: #c4ffc2 !important;
+//   color: #af0043!important;
+//   box-shadow: 0 0 0 2px #c4ffc2;
+// }
+
+// .nota-numero {
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+// }
+
+// .nota-numero:hover {
+//   transform: scale(1.1);
+// }
+
+// .nota-numero:active {
+//   transform: scale(0.95);
+// }
+
+
+// .nota-numero {
+//   position: relative;
+// }
+
+// .nota-numero::after {
+
+//   position: absolute;
+//   bottom: 100%;
+//   left: 250%;
+//   transform: translateX(-50%);
+//   color: #e47003;
+//   padding: 5px 10px;
+//   border-radius: 4px;
+//   font-size: 0.9em;
+//   white-space: nowrap;
+//   opacity: 0;
+//   visibility: hidden;
+//   transition: opacity 0.3s, visibility 0.3s;
+//   z-index: 1000;
+// }
+
+// .nota-numero:hover::after {
+//   opacity: 1;
+//   visibility: visible;
+// }
+
+// .highlight-origin {
+//   background-color: #ffeb3b !important;
+//   border: 2px solid #ff9800 !important;
+//   animation: pulse-origin 2s ease-in-out;
+// }
+
+// @keyframes pulse-origin {
+//   0%, 100% { background-color: #ffeb3b; }
+//   50% { background-color: #fff176; }
+// }
+
+// .nota-numero {
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+// }
+
+// .nota-numero:hover {
+//   background-color: #90ee90 !important;
+//   color: #af0043 !important;
+// }
+
+// @keyframes pulse-origin {
+//   0% { 
+//     background-color: #ffeb3b;
+//     box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+//   }
+//   50% { 
+//     background-color: #fff176;
+//     box-shadow: 0 0 20px rgba(255, 152, 0, 0.8);
+//   }
+//   100% { 
+//     background-color: #ffeb3b;
+//     box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+//   }
+// }
+// @keyframes pulse-highlight {
+//   0% { 
+//     background-color: #c4ffc2;
+//     box-shadow: 0 0 0 2px #90ee90;
+//   }
+//   50% { 
+//     background-color: #90ee90;
+//     box-shadow: 0 0 0 4px #c4ffc2;
+//   }
+//   100% { 
+//     background-color: #c4ffc2;
+//     box-shadow: 0 0 0 2px #90ee90;
+//   }
+  
+// }

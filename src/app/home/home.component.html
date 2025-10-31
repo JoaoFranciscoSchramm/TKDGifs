@@ -1,0 +1,56 @@
+<div class="home-container">
+  <div class="conteudo-principal">
+    <div class="intro">
+      <h1>A Origem e o Legado</h1>
+      <p>Este conteúdo programático de Taekwondo, que se desenrola faixa a faixa, é um legado de dedicação e paixão que se perpetua por gerações. A sua origem remonta ao grão-mestre Yong Min Kim, que veio ao Brasil em 1976 e formou vários instrutores desde então. Seu conhecimento foi transmitido ao grão-mestre Marcos Rodrigues, um de seus mais dedicados alunos, que, por sua vez, repassou os ensinamentos à nossa mestra Lúcia Kobayashi, a qual hoje nos guia nessa jornada. Este caminho é fruto de três esforços: a adaptação fiel dos termos originais ao padrão internacional da Kukkiwon, a tradução e adequação à sintaxe do português e a expressão viva das técnicas em vídeo. </p>
+    </div>
+
+    <div class="galeria-pessoas">
+      <div class="pessoa">
+        <img src="/../../assets/apres.1/kim2.jpg" alt="Foto do Grão-Mestre Yong Min Kim">
+        <p>Grão-Mestre Yong Min Kim </p>
+      </div>
+      <div class="pessoa">
+        <img src="/../../assets/apres.1/marcos1.jpg" alt="Foto do Grão-Mestre Mestre Marcos Rodrigues">
+        <p>Grão-Mestre Marcos Rodrigues</p>
+      </div>
+      <div class="pessoa">
+        <img src="/../../assets/apres.1/kobayashi1.jpg" alt="Foto da Mestra Lúcia Kobayashi">
+        <p>Mestra Lúcia Kobayashi</p>
+      </div>
+    </div>
+
+    <div class="arvore-legado-container">
+      <a href="https://archive.org/details/materia-tkd-un-b-2024-atual-em-20dez" target="_blank" class="download-link-arvore">
+        <img src="/../../assets/apres.1/arvore4.png" alt="Árvore genealógica de conhecimento" class="arvore-legado arvore-editada">
+      </a>
+      <p> Clique na árvore para baixar o Conteúdo Programático em formato PDF.</p>
+      <p>Clique na data para baixar o Conteúdo Programático original, anterior à atualização <a href="https://archive.org/details/materia-tkd-un-b-2024-atual-em-20dez" target="_blank">(2024).</a></p>
+    </div>
+  </div>
+
+  <div class="lista-faixas-container">
+  <h2>Faixas</h2>
+  <div class="lista-faixas">
+    <ng-container *ngFor="let faixa of faixas">
+      <div class="faixa-card" (click)="navigateToFaixa(faixa.id)">
+        <div class="faixa-nome">{{ faixa.nome }}</div>
+        <div class="faixa-barra" [class]="'barra-' + faixa.id"></div>
+      </div>
+    </ng-container>
+  </div>
+
+    <h2 class="titulo-textos">Textos</h2>
+    <div class="lista-textos">
+      <div
+        class="texto-card"
+        *ngFor="let texto of textosTeoricos"
+        (click)="navigateToText(texto.id)"
+      >
+        <div class="texto-info">
+          <h3>{{ texto.titulo }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

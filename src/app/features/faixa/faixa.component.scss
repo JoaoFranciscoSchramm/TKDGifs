@@ -1,0 +1,509 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.background-image {
+  position: fixed;
+  top: 20px;
+  right: 183px;
+  width: 850px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+  opacity: 1;
+  border-radius: 75px;
+}
+// Classe padrão para faixas sem classe específica
+.default-bg {
+  width: 850px;
+  height: 850px;
+  top: 20px;
+  right: 183px;
+  opacity: 1;
+  border-radius: 75px;
+}
+// Estilos específicos para cada faixa
+.faixa-branca-bg {
+  position: fixed;
+  top: 20px;
+  right: 183px;
+  width: 850px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+  opacity: 1;
+  border-radius: 75px;
+}
+// .faixa-cinza-bg {
+//     position: fixed;
+//   top: 20px;
+//   right: 183px;
+//   width: 750px;
+//   height: 750px;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: contain;
+//   z-index: -1;
+//   opacity: 1;
+//   border-radius: 75px;
+// }
+
+.introducao h1 {
+  color: #302170;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+
+
+.titulo-principal {
+  font-size: 1.6em;
+  color: #302170;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-traducao {
+  font-style: bold;
+  color: #302170;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  color: #272625;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 20px;
+}
+
+.introducao {
+  color: #272625;
+  width: 33.33%;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  border-left: 4px solid #af0043;
+}
+
+.introducao p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #302170;
+  top: 120px;
+  left: 30px;
+  right: 30px;
+  text-align: justify;
+}
+
+.secao-tecnica {
+  margin-bottom: 40px;
+  display: block;
+  width: 100%;
+}
+
+.conteudo-principal {
+  display: flex !important;
+  gap: 20px;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+    margin-bottom: 20px;
+}
+
+.conteudo-texto {
+  width: 25%; 
+  flex: none;
+  min-width: 250px;
+  border-radius: 8px;
+  padding: 15px;
+  z-index: 1;
+  font-size: 1.1em;
+  
+}
+
+.conteudo-janela {
+  flex: 3;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  z-index: 1;
+  width: auto !important;
+}
+
+.conteudo-faixa {
+  display: block; // Mude de flex para block para layout vertical
+  width: 100%;
+}
+
+.comando-container {
+  background: #fff8f2;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  border-left: 4px solid #af0043;
+   
+}
+
+.bibliografia .conteudo-texto {
+  width: 30%;
+  flex: 1;
+}
+
+.tecnica-descricao {
+  font-weight: bold;
+  color: #af0043;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+ 
+}
+.introducao {
+  color: #272625;
+  width: 33.33%;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  border-left: 4px solid #af0043;
+}
+
+
+
+
+
+
+.grupo-textos {
+  border-left: 4px solid #af0043;
+  padding-left: 20px;
+  /* Ajustado para melhor espaçamento */
+}
+
+.texto-destaque {
+  display: block;
+  background: #fff;
+  border: 1px solid #e5c9a0;
+  padding: 15px 20px;
+  /* Ajustado para mais espaço interno */
+  margin-bottom: 10px;
+  color: #e47003;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background .3s;
+  cursor: pointer;
+  font-size: 1em;
+  /* Ajustado para um tamanho de fonte mais legível */
+
+}
+
+.texto-destaque:hover,
+.texto-destaque.active {
+  background: #c4ffc2;
+}
+
+
+
+
+@media (max-width: 768px) {
+  
+ 
+  
+  .background-image {
+    width: 100%;
+    height: 604px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+    border-radius: 0;
+    margin-top: 150px;
+  }
+ .faixa-cinza-bg {
+     width: 95%;
+    height: 524px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+  
+    margin-top: 150px;
+  }
+  .introducao {
+    width: 100%;
+    margin-bottom: 500px;
+    padding: 20px;
+    margin-bottom: 520px;
+  }
+
+
+
+  .conteudo-texto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+  }
+ .conteudo-janela {
+    width: 100% ;
+    position: relative ;
+  }
+
+  .secao-referencias-estilo {
+    width: 100%; /* Garante a largura total para mobile */
+    margin-bottom: 20px; /* Adiciona espaçamento após o container */ 
+  }
+  .titulo-principal,
+  .titulo-traducao {
+    text-align: center;
+  }
+
+  .secao-tecnica {
+    margin-bottom: 40px;
+    
+  }
+}
+
+/* Estilo para o container da nota */
+/* Estilo para o container da nota */
+.nota-container {
+  max-width: 475px;
+  min-width: 275px;
+  background: #fff;
+  border: 1px solid #e5c9a0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  z-index: 10;
+  position: absolute;
+  transform: translateY(-50%);
+  
+
+}
+  
+  p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #3b3a3f;
+    margin: 0;
+    
+  }
+
+  .btn-voltar-tecnica {
+    background-color: #302170;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .btn-voltar-tecnica:hover {
+    background-color: #4b34a6;
+  }
+
+  .secao-referencias-estilo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #272625;
+    line-height: 2.5;
+    background: rgba(255, 248, 242, .8);
+    
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    
+    
+    
+  }
+
+  /* Estilo para destacar a técnica de origem */
+  /* Regras para o parágrafo dentro dessas seções */
+
+@media (min-width: 769px) and (max-width: 1123px){
+
+
+.background-image {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 550px;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+  opacity: 1;
+  border-radius: 75px;
+}
+
+
+
+  .comando-container {
+  background: #fff8f2;
+  padding: 20px;
+  border: 1px solid #e5c9a0;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+   margin-bottom: 60px;
+   width: 120%;
+   border-left: 4px solid #af0043; 
+
+}
+
+
+
+}
+
+
+
+  .secao-referencias-estilo p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-indent: -20px; /* Cria um recuo para a segunda linha */
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o número da nota */
+.nota-numero {
+  font-weight: bold;
+  color: #af0043;
+  margin-right: 5px;
+}
+
+/* Estilo para a nota destacada */
+.highlight-note {
+  background-color: #c4ffc2 !important;
+  padding: 4px 8px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px #90ee90;
+  animation: pulse-highlight 1s ease-in-out;
+}
+
+/* Adicione também este estilo para o número da nota */
+.nota-numero {
+  font-weight: bold;
+  color: #af0043;
+  margin-right: 8px;
+  background-color: rgba(255,248,242,.8);
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+.nota-item {
+  margin-bottom: -45px;
+  padding: 15px;
+  border-bottom: 1px solid #e5c9a0;
+}
+
+.nota-item:last-child {
+  border-bottom: none;
+}
+
+
+
+
+.nota-numero.highlight-note::before {
+  content: "▲"; /* Conteúdo da seta */
+position:absolute;
+  left: 24.5px;
+  bottom: 20px;
+  transform: translateX(-50%);
+  color: #90ee90; /* Cor verde */
+  font-size: 1.2em; /* Tamanho da seta */
+  animation: pulse-arrow 1.25s infinite; /* Adiciona uma animação */
+
+}
+
+@keyframes pulse-arrow {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.nota-numero {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nota-numero:hover {
+  background-color: #90ee90 !important;
+  color: #af0043 !important;
+}
+
+::ng-deep .tecnica-card.highlight-origin,
+::ng-deep .card.highlight-origin {
+  background: #c4ffc2 !important; /* Apenas muda a cor de fundo */
+  transition: background 0.3s ease;
+  
+  /* Garante que não haja transformações indesejadas */
+  transform: none !important;
+  scale: none !important;
+  box-shadow: none !important;
+
+
+}
+
+::ng-deep {
+  .destaque-vermelho {
+    color: #af0043 !important;
+    font-weight: normal!important;
+   font-style: normal;
+
+  
+    
+  }
+  
+  .termo-coreano {
+    color: #302170 !important;
+    font-family: 'Malgun Gothic', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.1em !important;
+  }
+  
+  .italico-rosa {
+    color: #af0043 !important;
+    font-style: italic !important;
+    border-bottom: 1px dashed #af0043 !important;
+  }
+  
+  .badge {
+    display: inline-block !important;
+    padding: 2px 8px !important;
+    border-radius: 12px !important;
+    font-size: 0.8em !important;
+    font-weight: bold !important;
+    margin-right: 5px !important;
+    
+    &.badge-importante {
+      background: #ff4444 !important;
+      color: white !important;
+    }
+    
+    &.badge-dica {
+      background: #44ff44 !important;
+      color: #000 !important;
+    }
+  }
+}
+

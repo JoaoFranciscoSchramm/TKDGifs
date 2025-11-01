@@ -38,15 +38,17 @@ export class FaixaComponent implements OnInit {
     this.faixa = this.conteudo.getFaixaById(id);
     this.updateMode();
     this.sanitizeReferencias();
-
+window.scrollTo(0, 0)
     if (this.faixa) {
       this.faixa.sections.forEach(section => {
         // Inicializa as seções especiais como ocultas por padrão
         if (section.isSpecialSection) {
           this.expandedSections[section.title] = false;
         }
+        window.scrollTo(0, 0)
       });
     }
+    window.scrollTo(0, 0)
   }
 
   sanitizeReferencias(): void {

@@ -340,16 +340,16 @@ referencias: [
         title: 'Kibon Yeonseub – 기본연습',
         translation: 'Práticas Fundamentais',
         tecnicas: [
-          {
-            descricao: 'Jutchun-seogi (Base do Cavalo):',
-            id: 'arae-makgi-ky',
-            nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span><br>- Arae-jireugi<br><span class="destaque-vermelho">Soco Embaixo</span><br>- Momtong-jireugi<br><span class="destaque-vermelho">Soco no Tronco<br></span>- Eolgul-jireugi<br><span class="destaque-vermelho">Soco no Rosto</span>',
-            traducao: '',
-            videoId: 'video_id_exemplo',
-                        nota: 'Kibon Yeonsup destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+          // {
+          //   descricao: 'Jutchun-seogi (Base do Cavalo):',
+          //   id: 'arae-makgi-ky',
+          //   nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span><br>- Arae-jireugi<br><span class="destaque-vermelho">Soco Embaixo</span><br>- Momtong-jireugi<br><span class="destaque-vermelho">Soco no Tronco<br></span>- Eolgul-jireugi<br><span class="destaque-vermelho">Soco no Rosto</span>',
+          //   traducao: '',
+          //   videoId: 'video_id_exemplo',
+          //               nota: 'Kibon Yeonsup destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
 
-            notaId: 1
-          },
+          //   notaId: 1
+          // },
 //           {
 //             id: 'montong-makgi-ky',
 //             nome: 'Momtong-makgi',
@@ -580,16 +580,16 @@ audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
  title: 'Kibon Yeonsup - 기본연습 ',
         translation: 'Sequências Fundamentais',
         tecnicas: [
-          {
-            descricao: 'Juchum-seogi (Base do Cavalo)',
-            id: 'amarela-makgi-ky',
-            nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span> ',
-            // <br>- Nun-gawisonkkeut-jjireugi <br><span class="destaque-vermelho">Perfurar Olhos c/ Dedos em Tesoura</span><br>- Mok-pyeonsonkkeut-eopeo-jjireugi <br><span class="destaque-vermelho">Perfurar Garganta c/ Mão em Lança<br></span>- Mok-du-sonnal-an-chigi<br><span class="destaque-vermelho">Perfurar Pescoço c/ Mão em Faca</span>
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
+          // {
+          //   descricao: 'Juchum-seogi (Base do Cavalo)',
+          //   id: 'amarela-makgi-ky',
+          //   nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span> ',
+          //   // <br>- Nun-gawisonkkeut-jjireugi <br><span class="destaque-vermelho">Perfurar Olhos c/ Dedos em Tesoura</span><br>- Mok-pyeonsonkkeut-eopeo-jjireugi <br><span class="destaque-vermelho">Perfurar Garganta c/ Mão em Lança<br></span>- Mok-du-sonnal-an-chigi<br><span class="destaque-vermelho">Perfurar Pescoço c/ Mão em Faca</span>
+          //   traducao: '',
+          //   videoId: 'video_id_exemplo',
+          //   nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+          //     notaId: 1
+          // },
           ]
         },
         {
@@ -1006,21 +1006,21 @@ notaId: 18,
     grau: '6º GUB',
     background: 'assets/faixas/faixa-verde-claro.jpg',
     sections: [
-      {
-        title: 'Kibon Yeonsob',
-        translation: 'Sequências Fundamentais',
-        tecnicas: [
-{
-           descricao: 'Naran-seogi (Base Paralela)',
-            id: 'verde-clara-ye',
-            nome: '-  Sonnal-geodeureo-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida no Tronco</span><br>- (Montong) Sonnal-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca no Tronco</span><br>- (Oelgul) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca no Rosto</span><br>- (Moc) Sonnal-biteureo-an-chigi<br><span class="destaque-vermelho">Golpe Interno Inverso c/ Mão em Faca no Pescoço</span>',
-            traducao: ' ',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
-        ]
-      },
+//       {
+//         title: 'Kibon Yeonsob',
+//         translation: 'Sequências Fundamentais',
+//         tecnicas: [
+// {
+//            descricao: 'Naran-seogi (Base Paralela)',
+//             id: 'verde-clara-ye',
+//             nome: '-  Sonnal-geodeureo-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida no Tronco</span><br>- (Montong) Sonnal-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca no Tronco</span><br>- (Oelgul) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca no Rosto</span><br>- (Moc) Sonnal-biteureo-an-chigi<br><span class="destaque-vermelho">Golpe Interno Inverso c/ Mão em Faca no Pescoço</span>',
+//             traducao: ' ',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
+//         ]
+//       },
 
 
 {
@@ -1231,22 +1231,22 @@ notaId: 18,
     grau: '5º GUB',
     background: 'assets/faixas/faixa-verde-escuro.jpg',
     sections: [
-      {
-        title: 'Kibon Yeonseub – 기본연습 ',
-        translation: 'Sequências Fundamentais',
-        description: '',
-        tecnicas: [
- {
-            descricao: 'Narani-seogi',
-            id: 'amarela-makgi-ky',
-            nome: '- Batangson-nulleo-makgi <br><span class="destaque-vermelho">Bloqueio Pressionado c/ Palma da Mão</span><br>- (Pyeonsonkkeut) sewo-jjireugi <br><span class="destaque-vermelho">Estocada Vertical c/ Mão em Lança </span><br>- Jebipum (sonnal) an-chigi  <br><span class="destaque-vermelho">Golpe Interno c/ Faca da Mão na Postura da Andorinha </span><br>Deungjumeok-ap-chigi   <br><span class="destaque-vermelho">Golpe Frontal c/ Dorso do Punho </span><br>',
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
-          ]
-        },
+//       {
+//         title: 'Kibon Yeonseub – 기본연습 ',
+//         translation: 'Sequências Fundamentais',
+//         description: '',
+//         tecnicas: [
+//  {
+//             descricao: 'Narani-seogi',
+//             id: 'amarela-makgi-ky',
+//             nome: '- Batangson-nulleo-makgi <br><span class="destaque-vermelho">Bloqueio Pressionado c/ Palma da Mão</span><br>- (Pyeonsonkkeut) sewo-jjireugi <br><span class="destaque-vermelho">Estocada Vertical c/ Mão em Lança </span><br>- Jebipum (sonnal) an-chigi  <br><span class="destaque-vermelho">Golpe Interno c/ Faca da Mão na Postura da Andorinha </span><br>Deungjumeok-ap-chigi   <br><span class="destaque-vermelho">Golpe Frontal c/ Dorso do Punho </span><br>',
+//             traducao: '',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
+//           ]
+//         },
         {
           title: 'Kibon Dongjak - 기본동작',
           translation: 'Técnicas Fundamentais',
@@ -1452,15 +1452,15 @@ notaId: 17,
         title: 'Kibon Yeonseub – 기본연습',
         translation: 'Sequências Fundamentais',
         tecnicas: [
-{
-            descricao: 'Narani-seogi',
-            id: 'azul-clara-ye',
-            nome: '- Batangson-nulleo-makgi <br><span class="destaque-vermelho">Bloqueio Pressionado c/ Palma da Mão</span><br>- (Pyeonsonkkeut) sewo-jjireugi <br><span class="destaque-vermelho">Estocada Vertical c/ Mão em Lança </span><br>- Jebipum (sonnal) an-chigi  <br><span class="destaque-vermelho">Golpe Interno c/ Faca da Mão na Postura da Andorinha </span><br>Deungjumeok-ap-chigi   <br><span class="destaque-vermelho">Golpe Frontal c/ Dorso do Punho </span><br>',
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
+// {
+//             descricao: 'Narani-seogi',
+//             id: 'azul-clara-ye',
+//             nome: '- Batangson-nulleo-makgi <br><span class="destaque-vermelho">Bloqueio Pressionado c/ Palma da Mão</span><br>- (Pyeonsonkkeut) sewo-jjireugi <br><span class="destaque-vermelho">Estocada Vertical c/ Mão em Lança </span><br>- Jebipum (sonnal) an-chigi  <br><span class="destaque-vermelho">Golpe Interno c/ Faca da Mão na Postura da Andorinha </span><br>Deungjumeok-ap-chigi   <br><span class="destaque-vermelho">Golpe Frontal c/ Dorso do Punho </span><br>',
+//             traducao: '',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
 
         ]
       },
@@ -1681,22 +1681,22 @@ notaId: 17,
     grau: '3º GUB',
     background: 'assets/faixas/faxa-azul-escura.png',
     sections: [
-      {
-        title: ' Kibon Yeonseub – 기본연습 ',
-        translation: 'Sequências Fundamentais',
-        description: '',
-        tecnicas: [
-{
-            descricao: 'Juchum-seogi',
-            id: 'azul-escura-ye',
-            nome: '- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span>',
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
-        ]
-      },
+//       {
+//         title: ' Kibon Yeonseub – 기본연습 ',
+//         translation: 'Sequências Fundamentais',
+//         description: '',
+//         tecnicas: [
+// {
+//             descricao: 'Juchum-seogi',
+//             id: 'azul-escura-ye',
+//             nome: '- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span>',
+//             traducao: '',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
+//         ]
+//       },
        {
         title: 'Kibon Dongjak - 기본동작 ',
         translation: 'Técnicas Fundamentais',
@@ -1904,22 +1904,22 @@ notaId: 17,
     grau: '2º GUB',
     background: 'assets/faixas/faixa-vermelha.png',
     sections: [
-        {
-        title: ' Kibon Yeonseub – 기본연습 ',
-        translation: 'Sequências Fundamentais',
-        description: '',
-        tecnicas: [
-{
-            descricao: 'Juchum-seogi',
-            id: 'vermelh-ye',
-            nome: '- Gawi-makgi <br><span class="destaque-vermelho">Bloqueio Tesoura</span><br>- (Bakkatpalmnok) hecheo-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>-Du-jumeok-jeocheo-jireugi <br><span class="destaque-vermelho">Soco Duplo Invertido</span><br>- (Palmok) eotgeoreo-makgi<br><span class="destaque-vermelho">Bloqueio c/ Punho em Cruz</span><br>- (Arae) Sonnal-geodeureo-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca Assistida Embaixo</span><br>- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span><br>- Batangson-geodeureo-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão Assistida<br></span>- Deungjumeok-bakkat-chigi <br><span class="destaque-vermelho">Golpe Externo c/ Dorso do Punho </span>' ,
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
-        ]
-      },
+//         {
+//         title: ' Kibon Yeonseub – 기본연습 ',
+//         translation: 'Sequências Fundamentais',
+//         description: '',
+//         tecnicas: [
+// {
+//             descricao: 'Juchum-seogi',
+//             id: 'vermelh-ye',
+//             nome: '- Gawi-makgi <br><span class="destaque-vermelho">Bloqueio Tesoura</span><br>- (Bakkatpalmnok) hecheo-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>-Du-jumeok-jeocheo-jireugi <br><span class="destaque-vermelho">Soco Duplo Invertido</span><br>- (Palmok) eotgeoreo-makgi<br><span class="destaque-vermelho">Bloqueio c/ Punho em Cruz</span><br>- (Arae) Sonnal-geodeureo-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca Assistida Embaixo</span><br>- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span><br>- Batangson-geodeureo-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão Assistida<br></span>- Deungjumeok-bakkat-chigi <br><span class="destaque-vermelho">Golpe Externo c/ Dorso do Punho </span>' ,
+//             traducao: '',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
+//         ]
+//       },
        {
         title: 'Kibon Dongjak - 기본동작 ',
         translation: 'Técnicas Fundamentais',

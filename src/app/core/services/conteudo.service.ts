@@ -64,16 +64,16 @@ export class ConteudoService {
       id: 'faixa-branca',
       nome: 'BRANCA',
       grau: '10º GUB',
-      introducao: 'Neste conteúdo programático da Faixa Branca, os termos em coreano romanizado em laranja recebem sua tradução na sintaxe do português logo abaixo, em vermelho.<br><br> Bom treino!',
-      background: 'assets/faixas/faixa-branca.jpg',
+      introducao: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
+      background: 'assets/faixas/faixa-branca1.jpg',
       imageClass: 'faixa-branca-bg',
       sections: [
         {
-          title: 'Juchum Jireugi – 주춤지르기 ',
+          title:'Juchum Jireugi - 주춤지르기',
           translation: 'Soco na Base do Cavalo',
           tecnicas: [
             {
-descricao: 'Deslocar o pé à esquerda e socar com a esquerda em dez contagens com kihap no último golpe',
+descricao: 'Deslocar o pé e socar com o lado esquerdo',
               id: 'jutchun-moa',
               nome: ' Moa-seogi-jireugi',
               traducao: ' Soco na Base Fechada',
@@ -178,66 +178,17 @@ descricao: 'Deslocar o pé à esquerda e socar com a esquerda em dez contagens c
               audioFile: 'assets/audio/10 Eolgul-jireugi.mp3' 
              
                        }, 
-            //             {
-            //   descricao: 'Base de Luta',
-            //   id: '(bakkatpalmok) geoduro-bakkat-makgi',
-            //   nome: '(Bakkatpalmok) Geoduro-bakkat-makgi',
-            //   traducao: 'Bloqueio ExternoAssistida',
-            //   videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-            //   nota: '<i> (Bakkatpalmok) geodeureo-bakkat-makgi </i>/ (바깥팔목) 거들어 바깥막기 / (OutsideWrist) Supporting Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45, adaptado).</a> Moller executa a técnica em: <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">(Moller, 2022, min. 4.27).</a>',
-            // notaId: 11
-            // },
-//                    {
-//               descricao: 'FGTKD - Ap-seogi',
-//               id: '(bakkatpalmok) naeryeo-hecheo-makgi ',
-//               nome: '(Bakkatpalmok) naeryeo-hecheo-makgi',
-//               traducao: 'Bloqueio ExternoAssistida',
-//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-//               nota: '<i> (Bakkatpalmok) naeryeo-hecheo-makgi </i>/ (바깥팔목) 거들어 바깥막기 / (OutsideWrist) Supporting Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45, adaptado).</a> Moller executa a técnica em: <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">(Moller, 2022, min. 4.27).</a>',
-//             notaId: 11
-//             },
-//                 {
-//               descricao: 'Apgubi',
-//               id: 'anpalmok-bakkat-makgi  ',
-//               nome: 'Anpalmok-bakkat-makgi ',
-//               traducao: 'Bloqueio ExternoAssistida',
-//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-//               nota: '<i> Anpalmok-bakkat-makgi  </i>/ 안팔목 바깥막기 / Inside Wrist Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).',
-//             notaId: 12
-//             },
-//             {
-        
-//               id: 'nun-gawisonkkeut-jjireugi',
-//               nome: 'Nun-gawisonkkeut-jjireugi',
-//               traducao: 'Perfurar Olhos c/ Dedos em Tesoura',
-//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-//               nota: '<i> Gawisonkkeut-jjireugi </i>/ 가위손끝 찌르기  / Scissors Fingertip Thrust.   <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.37).',
-//             notaId: 13,
-//             },
-
-
-//  {
-//               id: 'mok-pyeonsonkkeut-eopeo-jjireugi ',
-//               nome: 'Mok-pyeonsonkkeut-eopeo-jjireugi ',
-//               traducao: 'Perfurar Garganta c/ Mão em Lança',
-//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-//               nota: '<i>(Pyeonsonkkeut) eopeo-jjireugi </i>/ (편손끝) 엎어찌르기 / (Spear Hand) Horizontal Thrust.    <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.37).',
-//             notaId: 14,
-//             },
-//              {
-        
-//               id: 'mok-sonnal-an-chigi ',
-//               nome: 'Mok-du-sonnal-an-chigi ',
-//               traducao: 'Golpear Pescoço c/ Mãos em Faca',
-//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-//               nota: '<i>Du-sonnal-an-chigi</i>/ 두 손날 안치기 / Two-Knife Hand Inward Strike.    <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.23).',
-//             notaId: 15,
-//             },
-            
-          ],
-           
-          
-        },
+                        {
+              descricao: 'Mo-juchum-seogi (Bakkatpalmok) geoduro-bakkat-makgi',
+              id: 'gyeorugi jumbi',
+              nome: 'Gyeorugi Jumbi',
+              traducao: 'Postura de Luta',
+              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+              nota: '<i> (Bakkatpalmok) geodeureo-bakkat-makgi </i>/ (바깥팔목) 거들어 바깥막기 / (OutsideWrist) Supporting Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45, adaptado).</a> Moller executa a técnica em: <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">(Moller, 2022, min. 4.27).</a>',
+            notaId: 11
+            }, 
+                ],
+            },
         {
           title: 'Bal Kisul - 발기술 ',
           translation: 'Técnicas de Chute',
@@ -306,14 +257,25 @@ descricao: 'Deslocar o pé à esquerda e socar com a esquerda em dez contagens c
           translation: '',
           description: '',
           tecnicas: [
+            
+            {
+              id: 'saju-jireugi',
+              nome: 'Saju-jireugi',
+              traducao: 'Soco nas Quatro Direções',
+              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+              nota: '<i>Saju-jireugi</i> = Quatro direções-soco.',// Adicionada nota de exemplo
+              notaId: 17 
+            },
+ 
             {
               id: 'saju-ap-chagi',
               nome: 'Saju-ap-chagi',
               traducao: 'Chute Frontal nas Quatro Direções',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Saju-ap-chagi</i> = Quatro direções-frente-chute.',// Adicionada nota de exemplo
-              notaId: 17 
+              notaId: 18
             },
+
  
           ]
         }
@@ -328,270 +290,255 @@ referencias: [
         'Sergio Moller Taekwondo. <strong>Nomenclatura Oficial Kukkiwon: Bloqueios (Makgi) 1 (...)</strong>. Youtube, <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">2022.</a>'
       ]
     },
-     {
-    id: 'faixa-cinza',
-    nome: 'CINZA',
-    grau: '9º GUB',
-    introducao: 'Olá, seja bem vindo. <br> Na Faixa Cinza, incluímos agora o<i> Kibon Yeonseub,</i> além de novas técnicas de Bloqueio como a <i>(Bakkatpalmok) Bakkat-makgi </i> (Bloqueio Externo c/ Pulso Externo), <i>Anpalmok-bakkat-makgi</i> (Bloqueio Externo c/ Pulso Interno), assim como novos chutes, como o <i>Yeop-chagi</i> (Chute Lateral) e <i>Dollyeo-chagi</i> (Chute Circular). A forma da Faixa Cinza é o <i>Saju Jireugi</i> <br> Bom treino!     ',
-    background: '/assets/faixas/faixa-cinza.jpg',
-     imageClass: 'faixa-cinza-bg',
-    sections: [
-      {
-        title: 'Kibon Yeonseub – 기본연습',
-        translation: 'Práticas Fundamentais',
-        tecnicas: [
-          // {
-          //   descricao: 'Jutchun-seogi (Base do Cavalo):',
-          //   id: 'arae-makgi-ky',
-          //   nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span><br>- Arae-jireugi<br><span class="destaque-vermelho">Soco Embaixo</span><br>- Momtong-jireugi<br><span class="destaque-vermelho">Soco no Tronco<br></span>- Eolgul-jireugi<br><span class="destaque-vermelho">Soco no Rosto</span>',
-          //   traducao: '',
-          //   videoId: 'video_id_exemplo',
-          //               nota: 'Kibon Yeonsup destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//      {
+//     id: 'faixa-cinza',
+//     nome: 'CINZA',
+//     grau: '9º GUB',
+//     introducao: 'Olá, seja bem vindo. <br> Na Faixa Cinza, incluímos novas técnicas de bloqueio como a <i>(Bakkatpalmok) Bakkat-makgi </i> (Bloqueio Externo c/ Pulso Externo), <i>Anpalmok-bakkat-makgi</i> (Bloqueio Externo c/ Pulso Interno), assim como novos chutes, como o <i>Yeop-chagi</i> (Chute Lateral) e <i>Dollyeo-chagi</i> (Chute Circular). A forma da Faixa Cinza é o <i>Saju Jireugi</i> <br> Bom treino!     ',
+//     background: '/assets/faixas/faixa-cinza.jpg',
+//      imageClass: 'faixa-cinza-bg',
+//     sections: [
+// //       {
+// //         title: 'Kibon Yeonseub – 기본연습',
+// //         translation: 'Práticas Fundamentais',
+// //         tecnicas: [
+// //           // {
+// //           //   descricao: 'Jutchun-seogi (Base do Cavalo):',
+// //           //   id: 'arae-makgi-ky',
+// //           //   nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span><br>- Arae-jireugi<br><span class="destaque-vermelho">Soco Embaixo</span><br>- Momtong-jireugi<br><span class="destaque-vermelho">Soco no Tronco<br></span>- Eolgul-jireugi<br><span class="destaque-vermelho">Soco no Rosto</span>',
+// //           //   traducao: '',
+// //           //   videoId: 'video_id_exemplo',
+// //           //               nota: 'Kibon Yeonsup destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
 
-          //   notaId: 1
-          // },
-//           {
-//             id: 'montong-makgi-ky',
-//             nome: 'Momtong-makgi',
-//             traducao: 'Bloqueio no Tronco',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Momtong-makgi</i> = Tronco-Bloqueio',
-//             notaId: 2
-//           },
-// {
-//             id: 'anpalmok-bakkat-makgi-ky',
-//             nome: 'Anpalmok-bakkat-makgi',
-//             traducao: 'Bloqueio Externo c/ Pulso Interno',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Anpalmok-bakkat-makgi</i> = Internopulso-externa-Bloqueio',
-//             notaId: 3
-//           },
-//           {
-//             id: 'bakkat-makgi-ky',
-//             nome: '(Bakkatpalmok) Bakkat-makgi',
-//             traducao: 'Bloqueio Externo c/ Pulso Externo',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>(Bakkatpalmok) Bakkat-makgi</i> = Externopulso-externa-Bloqueio',
-//             notaId: 4
-//           },
-//            {
-//             id: 'Eolgul-makgi-ky',
-//             nome: 'Eolgul-makki',
-//             traducao: 'Bloqueio no Rosto',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Eolgul-makki</i> = Rosto-Bloqueio',
-//             notaId: 5
-//           },
-//  {
-//             id: 'arae-jireugi-ky',
-//             nome: 'Arae-jireugi',
-//             traducao: 'Soco no Rosto',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Arae-jireugi</i> = Embaixo-soco',
-//             notaId: 6
-//           },
-// {
-//             id: 'momtong-jireugi-ky',
-//             nome: 'Momtong-jireugi',
-//             traducao: 'Soco no Tronco',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Momtong-jireigu</i> = Tronco-soco',
-//             notaId: 7
-//           },
-// {
-//             id: 'Eolgul-jireugi-ky',
-//             nome: 'Eolgul-jireugi',
-//             traducao: 'Soco no Rosto',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Eolgul-jireigu</i> = Rosto-soco',
-//             notaId: 8
-//           },
+// //           //   notaId: 1
+// //           // },
+// // //           {
+// // //             id: 'montong-makgi-ky',
+// // //             nome: 'Momtong-makgi',
+// // //             traducao: 'Bloqueio no Tronco',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Momtong-makgi</i> = Tronco-Bloqueio',
+// // //             notaId: 2
+// // //           },
+// // // {
+// // //             id: 'anpalmok-bakkat-makgi-ky',
+// // //             nome: 'Anpalmok-bakkat-makgi',
+// // //             traducao: 'Bloqueio Externo c/ Pulso Interno',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Anpalmok-bakkat-makgi</i> = Internopulso-externa-Bloqueio',
+// // //             notaId: 3
+// // //           },
+// // //           {
+// // //             id: 'bakkat-makgi-ky',
+// // //             nome: '(Bakkatpalmok) Bakkat-makgi',
+// // //             traducao: 'Bloqueio Externo c/ Pulso Externo',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>(Bakkatpalmok) Bakkat-makgi</i> = Externopulso-externa-Bloqueio',
+// // //             notaId: 4
+// // //           },
+// // //            {
+// // //             id: 'Eolgul-makgi-ky',
+// // //             nome: 'Eolgul-makki',
+// // //             traducao: 'Bloqueio no Rosto',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Eolgul-makki</i> = Rosto-Bloqueio',
+// // //             notaId: 5
+// // //           },
+// // //  {
+// // //             id: 'arae-jireugi-ky',
+// // //             nome: 'Arae-jireugi',
+// // //             traducao: 'Soco no Rosto',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Arae-jireugi</i> = Embaixo-soco',
+// // //             notaId: 6
+// // //           },
+// // // {
+// // //             id: 'momtong-jireugi-ky',
+// // //             nome: 'Momtong-jireugi',
+// // //             traducao: 'Soco no Tronco',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Momtong-jireigu</i> = Tronco-soco',
+// // //             notaId: 7
+// // //           },
+// // // {
+// // //             id: 'Eolgul-jireugi-ky',
+// // //             nome: 'Eolgul-jireugi',
+// // //             traducao: 'Soco no Rosto',
+// // //             videoId: 'video_id_exemplo',
+// // //             nota: '<i>Eolgul-jireigu</i> = Rosto-soco',
+// // //             notaId: 8
+// // //           },
         
-          ]
-        },
-        {
-          title: 'Kibon Dongjak - 기본동작',
-          translation: 'Técnicas Fundamentais',
-          description: '',
-          tecnicas: [
+// //           ]
+// //         },
+//         {
+//           title: 'Kibon Dongjak - 기본동작',
+//           translation: 'Técnicas Fundamentais',
+//           description: '',
+//           tecnicas: [
 
-            {
-              id: 'arae-makgi',
-              descricao:'Apgubi (Base Frontal)',
-              nome: 'Arae-makgi',
-              traducao: 'Bloqueio Embaixo',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>(Bakkatpalmok) naeryeo-makgi [=Arae-makgi] </i> / (바깥팔목) 내려막기 [=아래막기] / (Outside Wrist) Downward Block [=Low Block]<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.50)</a></i>  ', // Adicionada nota de exemplo
-            notaId: 2,
-            audioFile: 'assets/audio/4 Arae-makgi.mp3'
-            },
-            {
-              id: 'anpalmok-bakkat-makgi',
-              nome: 'Anpalmok-bakkat-makgi',
-              traducao: 'Bloqueio Externo c/ Pulso Interno',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>Anpalmok-bakkat-makgi</i> / 안팔목 바깥막기 / Inside Wrist Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).</a>',
-            notaId: 3,
-            audioFile: 'assets/audio/17 Anpalmok-bakkat-makgi.mp3'
-            },
-            {
-              id: '(bakkatpalmok)-bakkat-makgi ',
-              nome: '(Bakkatpalmok)-bakkat-makgi ',
-              traducao: 'Bloqueio Externo c/ Pulso Externo',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>(Bakkatpalmok) Bakkat-makgi</i> / (바깥팔목) 바깥막기 / (Outside Wrist) Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).</a>',
-            notaId: 4,
-            audioFile: 'assets/audio/18 (Bakkatpalmok) Bakkat-makgi.mp3',
-            },
-             {
-              id: 'arae-makgi + momtong-biteureo-jireugi',
-              nome: 'Arae-makgi +  Biteureo-jireugi',
-              traducao: 'Bloqueio Embaixo + Soco Inverso no Tronco',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>Arae-makgi + momtong-biteureo-jireugi</i> = Embaixo-Bloqueio + tronco-Inverso-soco. Comum entre os currículos brasileiros, os conectivos "<i>chago</i>", para indicar um chute (<i>chagi</i>) em sequência, ou "<i>mako</i>" para indicar uma Bloqueio (<i>makgi</i>) em sequência, não são utilizados pela Kukkwiwon, que nesse casso, organiza técnicas em sequência com o simbolo + ou ->.',
-            notaId: 5,
-            audioFile: 'assets/audio/19 Arae-makgi-biteureo-jireugi.mp3'
-            },
-            {
-              descricao: '',
-              id: 'gyeorugi-junbi ',
-              nome: 'Gyeorugi-junbi ',
-              traducao: 'Postura de Luta',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>Gyeorugi-junbi</i> (겨루기준비): Sparring Posture [=겨룸새:<i>Gyeorumsae</i>]. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.41).</a>',
-            notaId: 6,
-            audioFile: 'assets/audio/36 Gyeorugi-junbi.mp3'
-            },
-        ]
-      },
-      {
-          title: 'BALKISUL',
-          translation: 'Técnicas de chute',
-          description: 'Apgubi-naeryeo-hecheo-makgi (Bloqueio Espalhado Descendente na Base Frontal)',
-          tecnicas: [
-{
-descricao: 'Dwitbal (Perna Atrás)',
-id: 'an-chagi-jejari-bakkat-chagi',
-nome: 'An-chagi-jejari-bakkat-chagi',
-traducao: 'Chute Interno (Estático) Chute Externo',
-videoId: 'dQw4w9WgXcQ',
-nota:'<i>An-chagi-jejari-bakkat-chagi</i> = Interno-chute-mesmolugar-fora-chute.',
- notaId: 7,
-  audioFile: 'assets/audio/21 An-chagi-jejari-bakkat-chagi.mp3'
-},
-{
-id: 'naeryeo-chagi ',
-nome: 'Naeryeo-chagi',
-traducao: 'Chute Descendente',
-nota: '<i>Naeryeo-chagii</i>(내려차기): Axe Kick.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.20).</a>  ',
-notaId: 8,
-audioFile: 'assets/audio/13 Naeryeo-chagi.mp3'
-},
-{
-id: 'mireo-chagi ',
-nome: 'Mireo-chagi',
-traducao: 'Chute Empurrão',
-nota: '<i>Mireo-chagi</i>(밀어차기): Pushing Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.20).</a>',
-notaId: 9,
-audioFile: 'assets/audio/22 Mireo-chagi.mp3'
-},
-{
-id: 'eolgul-dollyeo-chagi',
-nome: '(Eolgul) Dollyeo-chagi',
-traducao: 'Chute Circular no Rosto',
-videoId: 'dQw4w9WgXcQ',
-nota: '<i>Eolgul-dollyeo-chagi</i> = Rosto-circular-chute.',
-notaId: 10,
-audioFile: 'assets/audio/23 Eolgul-dollyeo-chagi.mp3'
-},
-{
-id: 'yeop-chagi',
-nome: 'Yeop-chagi',
-traducao: 'Chute Lateral',
-videoId: 'dQw4w9WgXcQ',
-nota: '<i>Yeop-chagi</i> (옆차기): Side Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.22).</a>',
-notaId: 11,
-audioFile: 'assets/audio/24 Yeop-chagi.mp3'
-},
-{
-id: 'dwidora-ttwieo-dwit-chagi',
-nome: 'Dwidora-ttwieo-dwit-chagi',
-traducao: 'Coice Saltado',
-videoId: 'dQw4w9WgXcQ',
-nota: '<i>Dwidora-ttwieo-dwit-chagi</i> = Giro-salto-atrás-chute.',
-notaId: 12,
-audioFile: 'assets/audio/25 Dwidora-ttwieo-dwit-chagi.mp3'
-},
-{
-id: 'bandal-chagi + yeop-chagi',
-nome: 'Bandal-chagi + Yeop-chagi',
-traducao: 'Chute Meia Lua + Chute Lateral',
-videoId: 'dQw4w9WgXcQ',
-nota: '<i>Bandal-chagi + Yeop-chagi</i> = Luacrescente-chute + lado-chute.',
-notaId: 13,
-audioFile: 'assets/audio/26 Bandal-chagi + Yeop-chagi.mp3'
-},
+//             {
+//               id: 'arae-makgi',
+//               descricao:'Apgubi (Base Frontal)',
+//               nome: 'Arae-makgi',
+//               traducao: 'Bloqueio Embaixo',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>(Bakkatpalmok) naeryeo-makgi [=Arae-makgi] </i> / (바깥팔목) 내려막기 [=아래막기] / (Outside Wrist) Downward Block [=Low Block]<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.50)</a></i>  ', // Adicionada nota de exemplo
+//             notaId: 2,
+//             audioFile: 'assets/audio/4 Arae-makgi.mp3'
+//             },
+//             {
+//               id: 'anpalmok-bakkat-makgi',
+//               nome: 'Anpalmok-bakkat-makgi',
+//               traducao: 'Bloqueio Externo c/ Pulso Interno',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>Anpalmok-bakkat-makgi</i> / 안팔목 바깥막기 / Inside Wrist Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).</a>',
+//             notaId: 3,
+//             audioFile: 'assets/audio/17 Anpalmok-bakkat-makgi.mp3'
+//             },
+//             {
+//               id: '(bakkatpalmok)-bakkat-makgi ',
+//               nome: '(Bakkatpalmok)-bakkat-makgi ',
+//               traducao: 'Bloqueio Afora c/ Pulso Externo',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>(Bakkatpalmok) Bakkat-makgi</i> / (바깥팔목) 바깥막기 / (Outside Wrist) Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).</a>',
+//             notaId: 4,
+//             audioFile: 'assets/audio/18 (Bakkatpalmok) Bakkat-makgi.mp3',
+//             },
+//              {
+//               id: 'arae-makgi + momtong-biteureo-jireugi',
+//               nome: 'Arae-makgi +  Biteureo-jireugi',
+//               traducao: 'Bloqueio Embaixo + Soco Inverso no Tronco',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>Arae-makgi + momtong-biteureo-jireugi</i> = Embaixo-Bloqueio + tronco-Inverso-soco. Comum entre os currículos brasileiros, os conectivos "<i>chago</i>", para indicar um chute (<i>chagi</i>) em sequência, ou "<i>mako</i>" para indicar uma Bloqueio (<i>makgi</i>) em sequência, não são utilizados pela Kukkwiwon, que nesse casso, organiza técnicas em sequência com o simbolo + ou ->.',
+//             notaId: 5,
+//             audioFile: 'assets/audio/19 Arae-makgi-biteureo-jireugi.mp3'
+//             },
+//             {
+//               descricao: '',
+//               id: 'gyeorugi-junbi ',
+//               nome: 'Gyeorugi-junbi ',
+//               traducao: 'Postura de Luta',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>Gyeorugi-junbi</i> (겨루기준비): Sparring Posture [=겨룸새:<i>Gyeorumsae</i>]. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.41).</a>',
+//             notaId: 6,
+//             audioFile: 'assets/audio/36 Gyeorugi-junbi.mp3'
+//             },
+//         ]
+//       },
+//       {
+//           title: 'BALKISUL',
+//           translation: 'Técnicas de chute',
+//           description: 'Apgubi-naeryeo-hecheo-makgi (Bloqueio Espalhado Descendente na Base Frontal)',
+//           tecnicas: [
+// {
+// descricao: 'Dwitbal (Perna Atrás)',
+// id: 'an-chagi-jejari-bakkat-chagi',
+// nome: 'An-chagi-jejari-bakkat-chagi',
+// traducao: 'Chute Interno (Estático) Chute Externo',
+// videoId: 'dQw4w9WgXcQ',
+// nota:'<i>An-chagi-jejari-bakkat-chagi</i> = Interno-chute-mesmolugar-fora-chute.',
+//  notaId: 7,
+//   audioFile: 'assets/audio/21 An-chagi-jejari-bakkat-chagi.mp3'
+// },
+// {
+// id: 'naeryeo-chagi ',
+// nome: 'Naeryeo-chagi',
+// traducao: 'Chute Descendente',
+// nota: '<i>Naeryeo-chagii</i>(내려차기): Axe Kick.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.20).</a>  ',
+// notaId: 8,
+// audioFile: 'assets/audio/13 Naeryeo-chagi.mp3'
+// },
+// {
+// id: 'mireo-chagi ',
+// nome: 'Mireo-chagi',
+// traducao: 'Chute Empurrão',
+// nota: '<i>Mireo-chagi</i>(밀어차기): Pushing Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.20).</a>',
+// notaId: 9,
+// audioFile: 'assets/audio/22 Mireo-chagi.mp3'
+// },
+// {
+// id: 'eolgul-dollyeo-chagi',
+// nome: '(Eolgul) Dollyeo-chagi',
+// traducao: 'Chute Circular no Rosto',
+// videoId: 'dQw4w9WgXcQ',
+// nota: '<i>Eolgul-dollyeo-chagi</i> = Rosto-circular-chute.',
+// notaId: 10,
+// audioFile: 'assets/audio/23 Eolgul-dollyeo-chagi.mp3'
+// },
+// {
+// id: 'yeop-chagi',
+// nome: 'Yeop-chagi',
+// traducao: 'Chute Lateral',
+// videoId: 'dQw4w9WgXcQ',
+// nota: '<i>Yeop-chagi</i> (옆차기): Side Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.22).</a>',
+// notaId: 11,
+// audioFile: 'assets/audio/24 Yeop-chagi.mp3'
+// },
+// {
+// id: 'dwidora-ttwieo-dwit-chagi',
+// nome: 'Dwidora-ttwieo-dwit-chagi',
+// traducao: 'Coice Saltado',
+// videoId: 'dQw4w9WgXcQ',
+// nota: '<i>Dwidora-ttwieo-dwit-chagi</i> = Giro-salto-atrás-chute.',
+// notaId: 12,
+// audioFile: 'assets/audio/25 Dwidora-ttwieo-dwit-chagi.mp3'
+// },
+// {
+// id: 'bandal-chagi + yeop-chagi',
+// nome: 'Bandal-chagi + Yeop-chagi',
+// traducao: 'Chute Meia Lua + Chute Lateral',
+// videoId: 'dQw4w9WgXcQ',
+// nota: '<i>Bandal-chagi + Yeop-chagi</i> = Luacrescente-chute + lado-chute.',
+// notaId: 13,
+// audioFile: 'assets/audio/26 Bandal-chagi + Yeop-chagi.mp3'
+// },
 
-{
-id: 'yeop-chagi-dwidora-ttwieo-dwit-chagi',
-nome: 'Yeop-chagi + Dwidora-ttwieo-dwit-chagi ',
-traducao: 'Chute Lateral + Coice Saltado',
-videoId: 'dQw4w9WgXcQ',
-nota: '<i>Yeop-chagi + Dwidora-ttwieo-dwit-chagi </i> = Lado-chute + giro-salto-atrás-chute.',
-notaId: 14,
-audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
-},
-          ],          
-      },
-       {
-          title: 'Forma',
-          translation: '',
-          description: '',
-          tecnicas: [
-            {
-              id: 'saju-jireugi',
-              nome: 'Saju-jireugi',
-              traducao: 'Soco nas Quatro Direções',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-              nota: '<i>Saju-jireugi</i> = Quatro direções-soco.',// Adicionada nota de exemplo
-              notaId: 15 
-            },
+// {
+// id: 'yeop-chagi-dwidora-ttwieo-dwit-chagi',
+// nome: 'Yeop-chagi + Dwidora-ttwieo-dwit-chagi ',
+// traducao: 'Chute Lateral + Coice Saltado',
+// videoId: 'dQw4w9WgXcQ',
+// nota: '<i>Yeop-chagi + Dwidora-ttwieo-dwit-chagi </i> = Lado-chute + giro-salto-atrás-chute.',
+// notaId: 14,
+// audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
+// },
+//           ],          
+//       },
+//        {
+//           title: 'Forma',
+//           translation: '',
+//           description: '',
+//           tecnicas: [
+//             {
+//               id: 'saju-jireugi',
+//               nome: 'Saju-jireugi',
+//               traducao: 'Soco nas Quatro Direções',
+//               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+//               nota: '<i>Saju-jireugi</i> = Quatro direções-soco.',// Adicionada nota de exemplo
+//               notaId: 15 
+//             },
 
-          ]
-        }
+//           ]
+//         }
 
 
-    ],
-  referencias: [ 
-        // 'FGTKD. <strong>Apostila de Taekwondo</strong>. <a href="https://archive.org/details/apostila-fgtkd-2025">(s.d.).</a>',
-        'KUKKIWON.<strong> Taekwondo Technical Terminology.</strong> World Taekwondo Headquarters, <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> 2012.</a>',
-        'Sergio Moller Taekwondo. <strong>Nomenclatura Oficial Kukkiwon: Bloqueios (Makgi) 1 (...)</strong>. Youtube, <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">2022.</a>'
-      ]
-    },   
+//     ],
+//   referencias: [ 
+//         // 'FGTKD. <strong>Apostila de Taekwondo</strong>. <a href="https://archive.org/details/apostila-fgtkd-2025">(s.d.).</a>',
+//         'KUKKIWON.<strong> Taekwondo Technical Terminology.</strong> World Taekwondo Headquarters, <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> 2012.</a>',
+//         'Sergio Moller Taekwondo. <strong>Nomenclatura Oficial Kukkiwon: Bloqueios (Makgi) 1 (...)</strong>. Youtube, <a href="https://www.youtube.com/watch?v=oyyzQCpawu8&ab_channel=SergioMollerTaekwondo" target="_blank">2022.</a>'
+//       ]
+//     },   
    {
     id: 'faixa-amarela',
     nome: 'AMARELA',
     grau: '8º GUB',
-    introducao: '',
+    introducao: '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>',
     background: 'assets/faixas/faixa-amarela.jpg',
     imageClass: 'faixa-amarela-bg',
     sections: [
-     {
- title: 'Kibon Yeonsup - 기본연습 ',
-        translation: 'Sequências Fundamentais',
-        tecnicas: [
-          // {
-          //   descricao: 'Juchum-seogi (Base do Cavalo)',
-          //   id: 'amarela-makgi-ky',
-          //   nome: '- Arae-makgi<br><span class="destaque-vermelho">Bloqueio Embaixo</span><br>- Momtong-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>- Anpalmok-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Interno</span><br>- (Bakkatpalmok) Bakkat-makgi<br><span class="destaque-vermelho">Bloqueio Externo c/ Pulso Externo</span><br>- Eolgul-makgi<br><span class="destaque-vermelho">Bloqueio no Rosto</span> ',
-          //   // <br>- Nun-gawisonkkeut-jjireugi <br><span class="destaque-vermelho">Perfurar Olhos c/ Dedos em Tesoura</span><br>- Mok-pyeonsonkkeut-eopeo-jjireugi <br><span class="destaque-vermelho">Perfurar Garganta c/ Mão em Lança<br></span>- Mok-du-sonnal-an-chigi<br><span class="destaque-vermelho">Perfurar Pescoço c/ Mão em Faca</span>
-          //   traducao: '',
-          //   videoId: 'video_id_exemplo',
-          //   nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-          //     notaId: 1
-          // },
-          ]
-        },
+    
         {
           title: 'Kibon Dongjak - 기본동작',
           translation: 'Técnicas Fundamentais',
@@ -628,17 +575,16 @@ audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
              {
               id: '(eolgul)-sonnal-bakkat-makgi ',
               nome: '(Eolgul) Sonnal-bakkat-makgi ',
-              traducao: 'Bloqueio Externo c/ Mão em Faca no Rosto',
+              traducao: 'Bloqueio Externo c/ Faca da Mão no Rosto',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Sonnal-bakkat-makgi </i> / 손날 바깥막기 / Knife Hand Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 46).</a>.',
                           notaId: 5,
                            audioFile: 'assets/audio/29 (Eolgul) Sonnal-bakkat-makgi.mp3'
             },
             {
-  
               id: 'sonnal-geodeureo-bakkat-makgi',
               nome: ' Sonnal-geodeureo-bakkat-makgi',
-              traducao: 'Bloqueio Externo c/ Mão em Faca Assistida no Tronco',
+              traducao: 'Bloqueio Externo c/ Faca da Mão Assistida no Tronco',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Sonnal-geodeureo-bakkat-makgi</i>/ 손날 거들어 바깥막기 / Knife Hand Supporting Outward Block <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 45).</a>.', 
             notaId: 6,
@@ -657,7 +603,7 @@ audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
 {
   descricao: 'Ap-seogi (Base de Caminhada)',
               id: 'momtong-biteuro-jireugi',
-              nome: ' Biteuro-jireugi',
+              nome: ' Biteuro-Jireugi',
               traducao: 'Soco Inverso no Tronco',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Momtong-biteuro-jireugi</i> = Tronco-ivertido-soco.', 
@@ -674,8 +620,8 @@ audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
               audioFile: 'assets/audio/33  Biteuro-makgi.mp3'
             },
   {
-              id: 'ap-chagi + montong-Jireugi',
-              nome: 'Ap-chagi + Montong-jireugi',
+              id: 'ap-chagi + montong-jireugi',
+              nome: 'Ap-chagi + Montong-Jireugi',
               traducao: 'Chute Frontal c/ Perna Atrás + Soco no Rosto ',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Ap-chagi + Montong-Jireugi</i> = Frente-chute + tronco-soco.', 
@@ -689,6 +635,24 @@ audioFile: 'assets/audio/27 Yeop-chagi + Dwidora-ttwieo-dwit-chagi.mp3'
           translation: 'Técnicas de chute',
           description: 'Apgubi-naeryeo-hecheo-makgi <br> (Bloqueio Espalhado Descendente na Base Frontal)',
           tecnicas: [
+ {
+              id: 'an-chagi',
+              nome: 'An-chagi',
+              traducao: 'Chute Adentro',
+              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+             nota: '<i>An-chagi</i>(안차기): Inward Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.12)</a>.',
+             notaId: 11,
+              audioFile: 'assets/audio/15 An-chagi.mp3'
+            },
+{
+              id: 'bakkat-chagi',
+              nome: 'Bakkat-chagi',
+              traducao: 'Chute Afora',
+              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+             nota: '<i>Bakkat-chagi</i>(바깥차기): Outward Kick.  <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.13)</a>.',
+             notaId: 12,
+              audioFile: 'assets/audio/14 Bakkat-chagi.mp3'
+            },
 {
 descricao: 'Dwitbal (Perna Atrás)',
 id: 'naeryeo-chagi',
@@ -698,6 +662,14 @@ videoId: 'dQw4w9WgXcQ',
 nota:'<i>Naeryeo-chagi</i> (내려차기): Axe Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 20).</a> ',
  notaId: 11,
   audioFile: 'assets/audio/13 Naeryeo-chagi.mp3'
+},
+{
+id: 'mireo-chagi ',
+nome: 'Mireo-chagi',
+traducao: 'Chute Empurrão',
+nota: '<i>Mireo-chagi</i>(밀어차기): Pushing Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukiwwon, p.20).</a>',
+notaId: 9,
+audioFile: 'assets/audio/22 Mireo-chagi.mp3'
 },
 {
 id: 'dollyeo-chagi',
@@ -715,8 +687,9 @@ videoId: 'dQw4w9WgXcQ',
 nota: '<i>Yeop-chagi</i> (옆차기): Side Kick <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 22).</a>',
 notaId: 16,
 },
+
 {
-id: 'dwit-chagi',
+id: 'ttwieo-dwit-chagi',
 nome: 'Dwit-chagi',
 traducao: 'Coice',
 videoId: 'dQw4w9WgXcQ',
@@ -731,8 +704,14 @@ videoId: 'dQw4w9WgXcQ',
 nota: '<i>Bandal-chagi</i> (반달차기): Crescent Kick.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 14).</a> ',
 notaId: 18,
 },
-
-
+{
+id: 'yeop-chagi + dwit-chagi',
+nome: 'Yeop-chagi + Dwit-chagi',
+traducao: 'Chute Lateral + Coice',
+videoId: 'dQw4w9WgXcQ',
+nota: '<i>Yeop-chagi + Dwit-chagi</i> = Chute Lateral + Coice (반달차기): Crescent Kick.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon p. 14).</a> ',
+notaId: 19,
+},
           ],          
       },
        {
@@ -742,11 +721,10 @@ notaId: 18,
           tecnicas: [
             {
               id: 'taegeuk-1',
-              nome: 'Taeguk Il Jang',
-              traducao: '',
+              nome: 'Taegeuk Il Jang',
+              traducao: 'Taegeuk 1',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
             },
-
           ]
         },
 {
@@ -755,8 +733,8 @@ notaId: 18,
           description: '',
           tecnicas: [
             {
-              id: 'san Boderion 1 a 10',
-              nome: 'San Boderion 1 a 10 ',
+              id: 'san Boderion 1 a 5',
+              nome: 'San Boderion 1 a 5 (ambos os lados sempre)',
               traducao: '',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
             },
@@ -775,23 +753,23 @@ notaId: 18,
     nome: 'LARANJA',
     grau: '7º GUB',
     background: 'assets/faixas/faixa-laranja.jpg',
-    introducao: '',
+    introducao: '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>',
     sections: [
-      {
- title: 'Kibon Yoensup- 기본연습 ',
-        translation: 'Sequências Fundamentais',
-        tecnicas: [
-          {
-            descricao: 'Naran-seogi (Base Paralela)',
-            id: 'laranja-ye',
-            nome: '- (Arae) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Defesa Externa c/ Mão em Faca Embaixo </span><br>- (Momtong) Sonnal-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão no Tronco </span><br> - (Eolgul) Sonnal-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca no Rosto </span><br>- (Arae) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida Embaixo</span><br>- (Momtong) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida na Tronco</span> <br>- (Eolgul) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida na Face</span>  ',
-            traducao: '',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-              notaId: 1
-          },
-          ]
-        },
+//       {
+//  title: 'Kibon Yoensup- 기본연습 ',
+//         translation: 'Sequências Fundamentais',
+//         tecnicas: [
+//           {
+//             descricao: 'Naran-seogi (Base Paralela)',
+//             id: 'laranja-ye',
+//             nome: '- (Arae) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Defesa Externa c/ Faca da Mão Embaixo </span><br>- (Momtong) Sonnal-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Mão no Tronco </span><br> - (Eolgul) Sonnal-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão no Rosto </span><br>- (Arae) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão Assistida Embaixo</span><br>- (Momtong) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão Assistida na Tronco</span> <br>- (Eolgul) Sonnal-geodeureo-bakkat-makig<br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão Assistida na Face</span>  ',
+//             traducao: '',
+//             videoId: 'video_id_exemplo',
+//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
+//               notaId: 1
+//           },
+//           ]
+//         },
 {
  title: 'Kibon DONGJAK - 기본동작 ',
         translation: 'Técnicas Fundamentais',
@@ -860,7 +838,7 @@ notaId: 18,
             descricao: 'Dwitgubi (Base Atrás)',
             id: 'sonnal-geodeureo-bakkat-makgi ',
             nome: 'Sonnal-geodeureo-bakkat-makgi ',
-            traducao: 'Bloqueio Externo c/ Mão em Faca Assistido',
+            traducao: 'Bloqueio Externo c/ Faca da Mão Assistido',
             videoId: 'video_id_exemplo',
             nota: '<i>Sonnal-geodeureo-bakkat-makgi</i> / 손날 거들어 바깥막기 / Knife Hand Supporting Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.45).</a>',
               notaId: 9
@@ -873,50 +851,67 @@ notaId: 18,
         translation: 'Técnicas de Chute',
         description: 'Apgubi-naeryeo-hecheo-makgi <br> (Bloqueio Espalhado Descendente na Base Frontal)',
         tecnicas: [
+
+
           {
-            id: 'dwitbal-an-chagi-jejari-bakkat-chagi',
-            nome: 'Dwuitbal-an-chagi-jejari-bakkat-chagi',
+            descricao: 'Dwitbal (Perna Atrás)',
+            id: 'an-chagi-jejari-bakkat-chagi',
+            nome: 'An-chagi-jejari-bakkat-chagi',
             traducao: 'Chute Interno c/ Perna Atrás (Estático) Chute Externo',
             videoId: 'video_id_exemplo',
             nota: '<i>An-chagi</i> (안차기): Inward Kick.<i> Jejari</i> (in place). <i>Bakkat-chagi</i> (바깥차기): Outward Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.12, 7 e 13).',
               notaId: 10
           },
-             {
-            id: 'apbal-ttwieo-yeop-chagi-jejari-apbal-dollyeo-chagi',
-            nome: 'Apbal-ttwieo-yeop-chagi-jejari-apbal-dollyeo-chagi',
-            traducao: 'Chute Lateral Saltado c/ Perna Afrente (Estático) Chute Circular c/ Perna Afrente',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Ttwieo-yeop-chagi</i> / 뛰어 옆차기 / Jumping Side kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.22).</a> ',
-              notaId: 14
-            },
-          {
-            id: 'dwitbal-ttwieo-ap-chagi ',
-            nome: 'Dwitbal-ttwieo-ap-chagi ',
-            traducao: 'Chute Frontal Saltado c/ Perna Atrás',
+{
+            id: 'ttwieo-ap-chagi ',
+            nome: 'Ttwieo-ap-chagi ',
+            traducao: 'Chute Frontal Saltado ',
             videoId: 'video_id_exemplo',
             nota: '<i>Ttwieo-ap-chagi</i> / 뛰어 앞차기 / Jumping Front Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.13).</a>',
               notaId: 11
           },
 {
-            id: 'dwibal-bandal-chagi + apbal-ttwieo-bandal-chagi ',
-            nome: 'Dwitbal-bandal-chagi + Apbal-ttwieo-bandal-chagi ',
-            traducao: 'Chute Meia Lua + Chute Semircular c/ Perna Afrente',
+            id: 'bandal-chagi + ttwieo-bandal-chagi ',
+            nome: 'Bandal-chagi + Ttwieo-dollyeo-chagi ',
+            traducao: 'Chute Semicircular + Chute Circular ',
             videoId: 'video_id_exemplo',
-            nota:'<i>Dwitbal-bandal-chagi + Apbal-ttwieo-bandal-chagi</i> = Perna atrás-lua crescente-chute + Perna afrente-lua crescente-chute.',
+            nota:'<i>Bandal-chagi + Ttwieo-dollyeo-chagi</i> = Lua crescente-chute + Salto-circular-chute.',
               notaId: 12
           },
-          { 
-            id: 'apbal-ttwieo-dollyeo-chagi ',
-            nome: 'Apbal-ttwieo-dollyeo-chagi ',
-            traducao: 'Chute Circular Saltado c/ Perna Afrente',
+
+
+
+          
+           {
+            descricao:'Apbal (Perna Afrente)',
+            id: 'Ttwieo-naeryo-chagi',
+            nome: 'Ttwieo-naeryo-chagi',
+            traducao: 'Chute Descendente Saltado',
+            videoId: 'video_id_exemplo',
+            nota: '<i>Naeryeo-chagi</i> (내려차기): Axe Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.20).</a>',
+              notaId: 14
+            },
+  {
+            id: 'Ttwieo-yeop-chagi-jejari-apbal-dollyeo-chagi',
+            nome: 'Ttwieo-yeop-chagi-jejari-apbal-dollyeo-chagi',
+            traducao: 'Chute Lateral Saltado (Estático) Chute Circular',
+            videoId: 'video_id_exemplo',
+            nota: '<i>Ttwieo-yeop-chagi</i> / 뛰어 옆차기 / Jumping Side kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.22).</a> ',
+              notaId: 14
+            },
+              { 
+            id: 'Ttwieo-dollyeo-chagi ',
+            nome: 'Ttwieo-dollyeo-chagi ',
+            traducao: 'Chute Circular Saltado',
             videoId: 'video_id_exemplo',
             nota: '<i>Ttwieo-dollyeo-chagi</i> / 뛰어 돌려차기 / Jumping Roundhouse Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.15).</a>',
               notaId: 15
           },
+
           {
-            id: 'Dwi-kkoa-seogi-apbal-huryeo-chagi + dwitbal-huryeo-chagi ',
-            nome: 'Dwi-kkoa-seogi-apbal-huryeo-chagi + Dwitbal-huryeo-chagi',
-            traducao: 'Chute Chicote c/ Perna Afrente na Base Cruzada Atrás + Chute Chicote c/ Perna Atrás',
+            id: 'dwi-kkoa-seogi-huryeo-chagi + dwitbal-huryeo-chagi ',
+            nome: 'dwi-kkoa-seogi-huryeo-chagi + Dwitbal-huryeo-chagi',
+            traducao: 'Chute Chicote na Base Cruzada (Atrás) + Chute Chicote c/ Perna Atrás',
             videoId: 'video_id_exemplo',
             nota: '<i>Huryeo-chagi</i> (후려차기): Whipping Kick.  <i>Dwi-kkoa-seogi</i> <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.18 e 64).</a>',
               notaId: 16
@@ -951,8 +946,8 @@ notaId: 18,
         tecnicas: [
           {
             descricao: 'San Boderion',
-            id: '1 a 10 Wen e Oren',
-            nome: '1 a 10 Wen e Oren',
+            id: '1 a 10',
+            nome: '1 a 10',
             traducao: '',
             videoId: 'video_id_exemplo',
             
@@ -1005,6 +1000,7 @@ notaId: 18,
     nome: 'VERDE CLARA',
     grau: '6º GUB',
     background: 'assets/faixas/faixa-verde-claro.jpg',
+   introducao:'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.<br> Mauris placerat eleifend leo.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
     sections: [
 //       {
 //         title: 'Kibon Yeonsob',
@@ -1013,7 +1009,7 @@ notaId: 18,
 // {
 //            descricao: 'Naran-seogi (Base Paralela)',
 //             id: 'verde-clara-ye',
-//             nome: '-  Sonnal-geodeureo-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca Assistida no Tronco</span><br>- (Montong) Sonnal-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Mão em Faca no Tronco</span><br>- (Oelgul) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca no Rosto</span><br>- (Moc) Sonnal-biteureo-an-chigi<br><span class="destaque-vermelho">Golpe Interno Inverso c/ Mão em Faca no Pescoço</span>',
+//             nome: '-  Sonnal-geodeureo-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão Assistida no Tronco</span><br>- (Montong) Sonnal-bakkat-makgi <br><span class="destaque-vermelho">Bloqueio Externo c/ Faca da Mão no Tronco</span><br>- (Oelgul) Sonnal-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Faca da Mão no Rosto</span><br>- (Moc) Sonnal-biteureo-an-chigi<br><span class="destaque-vermelho">Golpe Interno Inverso c/ Faca da Mão no Pescoço</span>',
 //             traducao: ' ',
 //             videoId: 'video_id_exemplo',
 //             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
@@ -1028,10 +1024,10 @@ notaId: 18,
         translation: 'Técnicas Fundamentais',
         tecnicas: [
           {
-            descricao: 'Ap-euro-wen-apgubi',
-            id: 'ap-chagi + momtong-biteureo-dubeon-jireugi  ',
-            nome: 'Ap-chagi + Momtong-biteureo-dubeon-jireugi  ',
-            traducao: 'Chute Frontal + Soco Duplo Inverso no Tronco Duplo',
+            descricao: 'Apgubi',
+            id: 'ap-chagi + biteureo-dubeon-jireugi  ',
+            nome: 'Ap-chagi + biteureo-dubeon-jireugi  ',
+            traducao: 'Chute Frontal + Soco Duplo Inverso ',
             videoId: 'video_id_exemplo',
             nota: '<i>Dubeon</i>(두번). 두 (<i>Du</i>) = “dois”; 번 (beon) = “vez(es), ocorrência”.',
               notaId: 2,
@@ -1041,7 +1037,7 @@ notaId: 18,
             descricao: 'Ap-seogi',
             id: '(moc) biteureo-sonnal-an-chigi ',
             nome: '(Moc) Biteureo-sonnal-an-chigi',
-            traducao: 'Golpe Interno Inverso c/ Mão em Faca no Pescoço',
+            traducao: 'Golpe Interno Inverso c/ Faca da Mão no Pescoço',
             videoId: 'video_id_exemplo',
             nota: '<i>Sonnal-an-chigi</i> / 손날 안치기 / Knife Hand Inward Strike. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.23).</a>',
               notaId: 3,
@@ -1059,8 +1055,8 @@ notaId: 18,
           {
             descricao: 'Dwitgubi',
             id: ' sonnal-an-makgi + apgubi-biteureo-jireugi',
-            nome: ' Sonnal-an-makgi + Apgubi +  Biteureo-jireugi',
-            traducao: 'Bloqueio Interna c/ Mão em Faca no Tronco + Soco Inverso no Tronco na Base Frontal',
+            nome: ' Sonnal-an-makgi + Apgubi + Biteureo-jireugi',
+            traducao: 'Bloqueio Interno c/ Faca da Mão no Tronco + Soco Inverso no Tronco na Base Frontal',
             videoId: 'video_id_exemplo',
             nota: '<i>Dwitbal-ap-chagi + Arae-makgi +  Biteureo-jireugi</i> = Perna Atrás-frente-chute + Embaixo-Bloqueio  Inverso-soco',
               notaId: 5,
@@ -1071,6 +1067,7 @@ notaId: 18,
 {
  title: 'Bal Kisul -발기술',
         translation: 'Técnicas de Chute',
+        description: 'Gyeorugi-jumbi',
         tecnicas: [
           {
             descricao: 'Dwitbal',
@@ -1177,8 +1174,8 @@ notaId: 18,
         tecnicas: [
           {
             descricao: 'San Boderion',
-            id: '1 a 20 Wen e Oren',
-            nome: '1 a 20 Wen e Oren',
+            id: '1 a 15',
+            nome: '1 a 15',
             traducao: '',
             videoId: 'video_id_exemplo',
             
@@ -1230,6 +1227,7 @@ notaId: 18,
     nome: 'VERDE ESCURA',
     grau: '5º GUB',
     background: 'assets/faixas/faixa-verde-escuro.jpg',
+   introducao:'Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leoDonec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leoDonec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leoDonec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leoDonec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo <br> Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo',
     sections: [
 //       {
 //         title: 'Kibon Yeonseub – 기본연습 ',
@@ -1256,20 +1254,20 @@ notaId: 18,
               descricao:'Apgubi',
               id: 'batangson-nulleo-makgi + (pyeonsonkkeut) sewo-jjireugi ',
               nome: 'Batangson-nulleo-makgi + (Pyeonsonkkeut) sewo-jjireugi ',
-              traducao: 'Bloqueio Pressionado c/ Palma da Mão + Estocada Vertical c/ Mão em Lança  ',
+              traducao: 'Bloqueio Pressionado c/ Palma da Mão + Estocada Vertical c/ Mão em Lança',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Batangson-nulleo-makgi</i>/ 바탕손 눌러막기 / Palm Heel Pressing Block. <i>(Pyeonsonkkeut) sewo-jjireugi</i> / (편손끝) 세워찌르기 / (Spear Hand) Vertical Thrust. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.51 e 38).</a>',
               notaId: 2,
-              audioFile: 'assets/audio/28 Arae-makgi +  Biteureo-jireugi.mp3'
+              audioFile: ''
             },
             {
               id: 'jebipum (sonnal) an-chigi ',
-              nome: 'Jebipum (sonnal) an-chigi i',
+              nome: 'Jebipum (sonnal) an-chigi',
               traducao: 'Golpe Interno c/ Faca da Mão na Postura da Andorinha ',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: 'Jebipum (sonnal) an-chigi / 제비품 (손날) 안치기 / Swallow (Knife) Inward Strike.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.26).</a>',
             notaId: 3,
-             audioFile: 'assets/audio/17 Anpalmok-bakkat-makgi.mp3'
+             audioFile: ''
             },
             {
               id: 'dwitbal-ap-chagi +  Biteureo-jireugi',
@@ -1278,7 +1276,7 @@ notaId: 18,
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Dwitbal-ap-chagi + Biteureo-jireugi</i> = Perna Atrás-frente-chute + Inverso-soco.',
             notaId: 4,
-             audioFile: 'assets/audio/18 (Bakkatpalmok) Bakkat-makgi.mp3'
+             audioFile: 'assets/audio/'
             },
              {
               id: 'dwitbal-ap-chagi + deungjumeok-ap-chigi ',
@@ -1287,7 +1285,7 @@ notaId: 18,
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Dwitbal-ap-chagi + Deungjumeok-ap-chigi</i> = Perna Atrás-frente-chute + Dorso do punho-frente-golpe.',
                           notaId: 5,
-                           audioFile: 'assets/audio/29 (Eolgul) Sonnal-bakkat-makgi.mp3'
+                           audioFile: 'assets/audio/'
             },
             {
               id: 'momtong-makgi + dubeon-jireugi ',
@@ -1296,7 +1294,7 @@ notaId: 18,
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Momtong-makgi + Dubeon-jireugi</i> = Tronco-Bloqueio + Duplo-soco. ', 
             notaId: 6,
-            audioFile: 'assets/audio/30  Sonnal-geodeureo-bakkat-makgi.mp3'
+            audioFile: 'assets/audio/'
             },
 {
   descricao: 'Dwitgubi',
@@ -1306,24 +1304,32 @@ notaId: 18,
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>Sonnal-bakkat-makgi</i> / 손날 바깥막기 / Knife Hand Outward Block.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.46).</a>', 
             notaId: 7,
-             audioFile: 'assets/audio/31 Dwitbal-ap-chagi + Eolgul-jireugi.mp3'
+             audioFile: 'assets/audio/'
+            },
+            {
+              id: '(bakkatpalmok) bakkat-makgi',
+              nome: '(Bakkatpalmok) Bakkat-makgi',
+              traducao: 'Bloqueio Afora c/ Pulso Externo',
+              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
+              nota: '<i>(Bakkatpalmok) Bakkat-makgi</i> / 손날 바깥막기 / Knife Hand Outward Block.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.46).</a>', 
+            notaId: 8,
+             audioFile: 'assets/audio/'
             },
 {
               id: '(bakkatpalmok) bakkat-makgi + dwitbal-ap-chagi + montong-biteureo-makgi ',
               nome: '(Bakkatpalmok) bakkat-makgi + Dwitbal-ap-chagi + Montong-biteureo-makgi ',
-              traducao: 'Bloqueio de Externo c/ Pulso Externo + Chute Frontal c/ Perna Atrás + Bloqueio no Tronco Inverso',
+              traducao: 'Bloqueio de Afora c/ Pulso Externo + Chute Frontal c/ Perna Atrás + Bloqueio Inverso no Tronco ',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
               nota: '<i>(Bakkatpalmok) bakkat-makgi + Dwitbal-ap-chagi + Montong-biteureo-makgi</i> = (Externopulso) externa-Bloqueio + Perna Atrás-frente-chute.', 
-            notaId: 8,
-               audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
+            notaId: 9,
+               audioFile: 'assets/audio/'
             },
-
         ]
       },
       {
           title: 'Bal Kisul -발기술 ',
           translation: 'Técnicas de chute',
-          description: 'Apgubi-naeryeo-hecheo-makgi <br> (Bloqueio Espalhado Descendente na Base Frontal)',
+          description: 'Gyeorugi-jumbi',
           tecnicas: [
 {
 
@@ -1333,7 +1339,7 @@ traducao: 'Chute Tornado 360º ',
 videoId: 'dQw4w9WgXcQ',
 nota:'<i>Dwidora-ttwieo-dollyeo-chagi</i> (Back Jumping Spin Kick) [=Dolgae-chagi].<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.5).</a>',
  notaId: 11,
-  audioFile: 'assets/audio/13 Naeryeo-chagi.mp3'
+  audioFile: 'assets/audio/13'
 },
 {
 id: '360º oelgul-dolgae-chagi',
@@ -1342,6 +1348,7 @@ traducao: 'Chute Tornado no Cabeça',
 videoId: 'dQw4w9WgXcQ',
 nota: '<i>(Eolgul) 360º Dolgae-chagi</i> = (Face) 360º Tornado-chute.',
 notaId: 12,
+  audioFile: 'assets/audio/',
 },
 {
 id: 'apbal-ttwieo-yeop-chagi',
@@ -1350,14 +1357,16 @@ traducao: 'Chute Lateral Saltado c/ Perna Afrente',
 videoId: 'dQw4w9WgXcQ',
 nota: 'Ttwieo-yeop-chagi / 뛰어 옆차기 / Jumping Side Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.76).</a>.',
 notaId: 13,
+ audioFile: 'assets/audio/',
 },
 {
 id: 'Dwitbal-dubang-ap-chagi ',
-nome: 'DDwitbal-dubang-ap-chagi ',
+nome: 'Dwitbal-dubang-ap-chagi ',
 traducao: 'Chute Frontal em Dois Alvos c/ Perna Atrás',
 videoId: 'dQw4w9WgXcQ',
 nota: '<i>Dwitbal-dubang-ap-chagi</i> = Perna Atrás-dois alvos-frente-chute.',
 notaId: 14,
+ audioFile: 'assets/audio/',
 },
 {
 id: 'dwitbal-dubang-dollyeo-chagi ',
@@ -1366,6 +1375,7 @@ traducao: 'Chute Circular em Dois Alvos c/ Perna Atrás',
 videoId: 'dQw4w9WgXcQ',
 nota: '<i>Dwitbal-dubang-dollyeo-chagi</i> = Perna Atrás-dois alvos-circular-chute.',
 notaId: 15,
+ audioFile: 'assets/audio/',
 },
 {
 id: 'dwitbal-dubang-yeop-chagi ',
@@ -1374,6 +1384,7 @@ traducao: 'Chute Lateral em Dois Alvos c/ Perna Atrás',
 videoId: 'dQw4w9WgXcQ',
 nota: '<i>Dwitbal-dubang-yeop-chagi </i> = Perna Atrás-dois alvos-lateral-chute.',
 notaId: 16,
+ audioFile: 'assets/audio/',
 },
 {
 id: 'dwitbal-dubang-yeop-chagi ',
@@ -1382,6 +1393,7 @@ traducao: 'Chute Lateral em Dois Alvos c/ Perna Atrás',
 videoId: 'dQw4w9WgXcQ',
 nota: '<i>Dwitbal-dubang-yeop-chagi </i> = Perna Atrás-dois alvos-lateral-chute.',
 notaId: 17,
+ audioFile: 'assets/audio/',
 },
           ],          
       },
@@ -1425,7 +1437,7 @@ notaId: 17,
           tecnicas: [
             {
               id: 'san Boderion 1 a 20',
-              nome: 'San Boderion 1 a 20 ',
+              nome: 'San Boderion 1 a 20',
               traducao: '',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
             },
@@ -1447,39 +1459,15 @@ notaId: 17,
     nome: 'AZUL CLARA',
     grau: '4º GUB',
     background: 'assets/faixas/faixa-azul-claro.jpg',
+    introducao: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. <br>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.<br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo',
     sections: [
-      {
-        title: 'Kibon Yeonseub – 기본연습',
-        translation: 'Sequências Fundamentais',
-        tecnicas: [
-// {
-//             descricao: 'Narani-seogi',
-//             id: 'azul-clara-ye',
-//             nome: '- Batangson-nulleo-makgi <br><span class="destaque-vermelho">Bloqueio Pressionado c/ Palma da Mão</span><br>- (Pyeonsonkkeut) sewo-jjireugi <br><span class="destaque-vermelho">Estocada Vertical c/ Mão em Lança </span><br>- Jebipum (sonnal) an-chigi  <br><span class="destaque-vermelho">Golpe Interno c/ Faca da Mão na Postura da Andorinha </span><br>Deungjumeok-ap-chigi   <br><span class="destaque-vermelho">Golpe Frontal c/ Dorso do Punho </span><br>',
-//             traducao: '',
-//             videoId: 'video_id_exemplo',
-//             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
-//               notaId: 1
-//           },
-
-        ]
-      },
 
 {
         title: 'Kibon Dongjak - 기본동작 ',
         translation: 'Técnicas Fundamentais',
         tecnicas: [
-{
-            descricao: 'Apgubi',
-            id: 'arae-makgi + yeop-seogi-mejumeok-naeryeo-chigi ',
-            nome: 'Arae-makgi + Yeop-seogi-mejumeok-naeryeo-chigi ',
-            traducao: 'Bloqueio Embaixo + Golpe Descendente c/ Punho em Martelo na Base de Lado',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Yeop-seogi</i>(옆서기): Side Stance. <i> Mejumeok-naeryeo-chigi</i> / 메주먹 내려치기 / Hammer Fist Downward Strike. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> (Kukkiwon, p.65 e 22).</a>',
-              notaId: 2,
-                audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
-          },
-          {
+           {
+             descricao: 'Apgubi',
                       id: 'montong-makgi + momtong-biteureo-makgi',
             nome: 'Montong-makgi + Momtong-biteureo-makgi',
             traducao: 'Bloqueio no Tronco + Bloqueio Invertido no Tronco ',
@@ -1488,7 +1476,7 @@ notaId: 17,
               notaId: 3,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
           },
-            {
+ {
                       id: 'dwitbal-ap-chagi + deungjumeok-ap-chigi + momtong-biteureo-makgi',
             nome: 'Dwitbal-ap-chagi + Deungjumeok-ap-chigi + Momtong-biteureo-makgi',
             traducao: 'Chute Frontal c/ Perna Atrás + Golpe Frontal c/ Dorso do Punho + Bloqueio Inverso no Tronco',
@@ -1503,16 +1491,16 @@ notaId: 17,
             traducao: 'Chute Lateral c/ Perna Atrás + Golpe de Cotovelo ao Alvo',
             videoId: 'video_id_exemplo',
             nota: '<i> Palgup-pyojeok-chigi </i> / 팔굽 표적치기 / Elbow Target Strike.<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> (Kukkiwon, p.28).</a>',
-              notaId: 4,
+              notaId: 5,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
           },
-           {
+ {
                       id: 'palgup-dollyeo-chigi ',
             nome: 'Palgup-dollyeo-chigi ',
             traducao: 'Golpe de Cotovelo em Rotação ',
             videoId: 'video_id_exemplo',
             nota: '<i> Palgup-dollyeo-chigi </i> / 팔굽 돌려치기 / Elbow Turn Strike. (Kukkiwon p. 24).<a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> (Kukkiwon, p.24).</a>',
-              notaId: 5,
+              notaId: 6,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
           },
  {
@@ -1521,17 +1509,36 @@ notaId: 17,
             traducao: 'Chute Frontal c/ Perna Atrás + Bloqueio Embaixo + Bloqueio Inverso no Tronco ',
             videoId: 'video_id_exemplo',
             nota: '<i>Dwitbal-ap-chagi + Arae-makgi + Momtong-biteureo-makgi</i> = Perna Atrás-frente-chute + Embaixo-Bloqueio + Tronco-Inverso-Bloqueio.',
-              notaId: 6,
+              notaId: 7,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
           },
-           {
+           {   
+            id: 'arae-makgi + yeop-seogi-mejumeok-naeryeo-chigi ',
+            nome: 'Arae-makgi + Yeop-seogi-mejumeok-naeryeo-chigi ',
+            traducao: 'Bloqueio Embaixo + Golpe Descendente c/ Punho em Martelo na Base de Lado',
+            videoId: 'video_id_exemplo',
+            nota: '<i>Yeop-seogi</i>(옆서기): Side Stance. <i> Mejumeok-naeryeo-chigi</i> / 메주먹 내려치기 / Hammer Fist Downward Strike. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> (Kukkiwon, p.65 e 22).</a>',
+              notaId: 8,
+                audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
+          },
+          { 
+descricao: 'Dwitgubi',
+                      id: 'sonnal-bakkat-makgi',
+            nome: 'Sonnal-bakkat-makgi',
+            traducao: 'Bloqueio Afora c/ Faca da Mão',
+            videoId: 'video_id_exemplo',
+            nota: '<i>Sonnal-bakkat-makgi</i> / 손날 바깥막기 / Knife Hand Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank"> (Kukkiwon, p.46).</a> ',
+              notaId: 9,
+                audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
+          },
+{
             descricao: 'Dwitgubi',
                       id: 'sonnal-bakkat-makgi + ap-euro + apgubi-palgup-dollyeo-chigi',
             nome: 'Sonnal-bakkat-makgi + Ap-euro + Apgubi-palgup-dollyeo-chigi',
-            traducao: 'Bloqueio c/ Mão em Faca na Base Atrás + Avanço + Golpe de Cotovelo ao Alvo na Base Frontal',
+            traducao: 'Bloqueio c/ Faca da Mão na Base Atrás + Avanço + Golpe de Cotovelo ao Alvo na Base Frontal',
             videoId: 'video_id_exemplo',
             nota: '<i>Sonnal-bakkat-makgi </i> / 손날 바깥막기 / Knife Hand Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.46).</a>',
-              notaId: 7,
+              notaId: 10,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
           },
           {
@@ -1541,9 +1548,9 @@ notaId: 17,
             traducao: 'Chute Frontal c/ Perna Atrás + Golpe Frontal c/ Dorso do Punho na Base Cruzada ',
             videoId: 'video_id_exemplo',
             nota: '<i>Kkoa-seogi </i>  (꼬아서기): Cross Stance. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.63).</a>',
-              notaId: 8,
+              notaId: 11,
                 audioFile: 'assets/audio/32  Biteuro-jireugi.mp3'
-          },
+  },      
         ]
       },
 {
@@ -1656,18 +1663,11 @@ notaId: 17,
           tecnicas: [
             {
               id: 'san Boderion 1 a 25',
-              nome: 'San Boderion 1 a 25 direita e esquerda ',
+              nome: 'San Boderion 1 a 25',
               traducao: '',
               videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
             },
-             {
-              id: 'i boderion',
-              nome: 'I Boderion 1 a 4 direita',
-              traducao: '',
-              videoId: 'dQw4w9WgXcQ', // mesmo do seu HTML simplificado
-            },
-
-          ]
+                    ]
         },
     ],
     referencias: [
@@ -1680,6 +1680,7 @@ notaId: 17,
     nome: 'AZUL ESCURO',
     grau: '3º GUB',
     background: 'assets/faixas/faxa-azul-escura.png',
+   introducao: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. <br>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.<br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo',
     sections: [
 //       {
 //         title: ' Kibon Yeonseub – 기본연습 ',
@@ -1706,7 +1707,7 @@ notaId: 17,
             descricao: 'Apgubi',
             id: '(oelgul) sonnal-biteureo-bakkat-makgi',
             nome: '(Oelgul) Sonnal-biteureo-bakkat-makgi',
-            traducao: 'Bloqueio Externo Inverso c/ Mão em Faca no Rosto',
+            traducao: 'Bloqueio Externo Inverso c/ Faca da Mão no Rosto',
             videoId: 'video_id_exemplo',
             nota: '<i>Sonnal-biteureo-bakkat-makgi</i>/ 손날 비틀어 바깥막기 / Knife Hand Twisting Outward Block. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.46).</a> ',
               notaId: 2
@@ -1750,15 +1751,7 @@ notaId: 17,
             nota: '<i>Dolgae-chagi</i> (돌개차기): Tornado Kick / 앞발 후려차기 /. <i>360º Dwi-huryeo-chagi</i> / 360도 뒤후려차기 / 360º Back Whip Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.15 e 18).</a>',
               notaId: 6
           },
-          {
-            id: '360º dolgae-chagi + 360º dwitbal-dwi-huryeo-chagi ',
-            nome: '360º Dolgae-chagi + 360º Dwitbal-dwi-huryeo-chagi ',
-            traducao: 'Chute Tornado + Chute Chicote Girado',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Dwidora-ttwieo-dollyeo-chagi</i> (Back Jumping Spin Kick) [=Dolgae-chagi].<i> 360º Dwi-huryeo-chagi</i> / 360도 뒤후려차기 / 360º Back Whip Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.5 e 18).</a>',
-              notaId: 7
-          },
-{   
+    {   
             id: 'dwitbal-bandal-chagi + apbal-bandal-chagi + 360º dolgae-chagi',
             nome: 'Dwitbal-bandal-chagi + Apbal-bandal-chagi + 360º Dolgae-chagi',
             traducao: 'Chute Semicircular c/ Perna Atrás + Chute Semicircular c/ Perna Afrente + Chute Tornado',
@@ -1774,14 +1767,7 @@ notaId: 17,
             nota: '<i>Narae-chagi</i> (나래차기): Double Kicks. <i>Ttwieo-dwi-chagi</i> / 뛰어 뒤차기 / Jumping Back Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.21 e 16).</a>',
               notaId: 9
           },
-          {
-            id: 'dwitbal-narae-chagi + dwit-chagi',
-            nome: 'Dwitbal-narae-chagi + Dwit-chagi',
-            traducao: 'Chute Asa c/ Perna Atrás + Coice',
-            videoId: 'video_id_exemplo',
-            nota: '<i>Narae-chagi</i>(나래차기): Double Kicks. <i>Dwi-chagi</i> / 뒤차기 / Back Kick. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.15 e 16).</a>',
-              notaId: 10
-          },
+          
 {
             id: 'dwitbal-bandal-chagi + jejari + dollyeo-chagi',
             nome: 'Dwitbal-bandal-chagi + Jejari + Dollyeo-chagi',
@@ -1798,6 +1784,14 @@ notaId: 17,
             nota: '<i> Dwitbal-bandal-chagi + Jejari + 360ºDwi-huryeo-chagi + Jejari + Dollyeo-chagi</i> = Perna Atrás-Lua crescente-chute + Mesmo lugar + Trás-chicote-chute + Mesmo Lugar + Circular-chute. ',
               notaId: 12
           },
+ {
+            id: 'apbal-ttwieo-naeryo-chagi +  360º dolgae-an-chagi',
+            nome: 'apbal-ttwieo-naeryo-chagi +  360º Dolgae-an-chagi',
+            traducao: 'Chute Descendente Saltado c/ Perna Afrente + Chute Tornado Adentro',
+            videoId: 'video_id_exemplo',
+            nota: '<i>Apbal-ttwieo-naeryo-chagi + 360º Dolgae-an-chagi</i> = Perna Afrente-salto-descendente-chute + 360º Tornado-chute.',
+              notaId: 13
+          },
           {
             id: 'apbal-ttwieo-naeryo-chagi + dwi-chagi',
             nome: 'Apbal-ttwieo-naeryo-chagi + Dwi-chagi',
@@ -1809,10 +1803,18 @@ notaId: 17,
           {
             id: 'apbal-ttwieo-dollyeo-chagi + dwitbal-mulleo-ditgi + dwi-chagi',
             nome: 'Apbal-ttwieo-dollyeo-chagi + Dwitbal-mulleo-ditgi  + Dwi-chagi',
-            traducao: 'Chute Circular c/ Perna Afrente + Step c/  Atrás p/ Trás + Coice',
+            traducao: 'Chute Circular c/ Perna Afrente + Step c/ Perna Atrás p/ Trás + Coice',
             videoId: 'video_id_exemplo',
             nota: '<i>Dwitbal-mulleo-ditgi</i> / 뒷발 물러딛기 / Rear Foot Backward Step. <a href="https://wientaekwondo.com/wp-content/uploads/2022/07/Technical_Terminology_ENG.pdf" target="_blank">(Kukkiwon, p.30).</a>   = Perna Afrente-salto-descendente-chute + Trás-chute',
               notaId: 14
+          },
+          {
+            id: 'arae-bande-jejari-dwi-huryeo-chagi',
+            nome: 'Arae-bande-jejari-dwi-huryeo-chagi',
+            traducao: 'Rasteira Girada (Estático) Chute Chicote Girado',
+            videoId: 'video_id_exemplo',
+            nota: '<i> Arae-bande-jejari-dwi-huryeo-chagi</i> = Rasteira-no mesmo lugar-atrás-chicote-chute.',
+              notaId: 15
           },
            {
             id: 'dolgae-chagi + (eolgul) dolgae-chagi',
@@ -1903,6 +1905,7 @@ notaId: 17,
     nome: 'FAIXA VERMELHA',
     grau: '2º GUB',
     background: 'assets/faixas/faixa-vermelha.png',
+   introducao: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. <br>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.<br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
     sections: [
 //         {
 //         title: ' Kibon Yeonseub – 기본연습 ',
@@ -1912,7 +1915,7 @@ notaId: 17,
 // {
 //             descricao: 'Juchum-seogi',
 //             id: 'vermelh-ye',
-//             nome: '- Gawi-makgi <br><span class="destaque-vermelho">Bloqueio Tesoura</span><br>- (Bakkatpalmnok) hecheo-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>-Du-jumeok-jeocheo-jireugi <br><span class="destaque-vermelho">Soco Duplo Invertido</span><br>- (Palmok) eotgeoreo-makgi<br><span class="destaque-vermelho">Bloqueio c/ Punho em Cruz</span><br>- (Arae) Sonnal-geodeureo-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Mão em Faca Assistida Embaixo</span><br>- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span><br>- Batangson-geodeureo-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão Assistida<br></span>- Deungjumeok-bakkat-chigi <br><span class="destaque-vermelho">Golpe Externo c/ Dorso do Punho </span>' ,
+//             nome: '- Gawi-makgi <br><span class="destaque-vermelho">Bloqueio Tesoura</span><br>- (Bakkatpalmnok) hecheo-makgi<br><span class="destaque-vermelho">Bloqueio no Tronco</span><br>-Du-jumeok-jeocheo-jireugi <br><span class="destaque-vermelho">Soco Duplo Invertido</span><br>- (Palmok) eotgeoreo-makgi<br><span class="destaque-vermelho">Bloqueio c/ Punho em Cruz</span><br>- (Arae) Sonnal-geodeureo-bakkat-makgi<br><span class="destaque-vermelho">Bloqueio c/ Faca da Mão Assistida Embaixo</span><br>- Batangson-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão</span><br>- Batangson-geodeureo-an-makgi <br><span class="destaque-vermelho">Bloqueio Interno c/ Palma da Mão Assistida<br></span>- Deungjumeok-bakkat-chigi <br><span class="destaque-vermelho">Golpe Externo c/ Dorso do Punho </span>' ,
 //             traducao: '',
 //             videoId: 'video_id_exemplo',
 //             nota: '<i>Kibon Yeonsup</i> destaca quatro ou menos partes fundamentais de técnicas básicas, em seis movimentos: <br> 짜기 (<i><strong>Jjagi</i></strong>) = “Tecer”. Preparar a posição inicial. <br>  허리 틀기 (<i><strong>Heori Teulgi</strong></i>) = “Quadril Girar”. É o giro do quadril. <br> 틀어 막기 (<i><strong>Teureo Makgi ou Chigi</strong></i>) = “Torcer Bloqueio ou Golpe”. A execução da Bloqueio ou golpe. <br>  팔굽치기 (<i><strong>Palgup Chigi</strong></i>) = “Cotovelo Golpe”. A cotovelada que faz o quadril girar novamente. <br> 힘의 약강 (<i><strong>Him-ui Yakgang</strong></i>) = “Força Suavidade/Dureza”.  Uma execução completa com ênfase no equilíbrio entre suavidade e força. <br> 속도의 완급 (<i><strong>Sokdo-ui Wangeup</strong></i>) = “Velocidade Aceleração/Desaceleração”. Uma execução completa com ênfase no equilíbrio entre aceleração e desaceleração.',
@@ -1947,9 +1950,9 @@ notaId: 17,
   descricao: 'Dwitgubi',
             id: 'dwitgubi-arae-sonnal-geodeureo-bakkat-makgi ',
             nome: 'Dwitgubi-arae-sonnal-geodeureo-bakkat-makgi ',
-            traducao: 'Bloqueio Embaixo c/ Mão em Faca Assistida na Base Atrás',
+            traducao: 'Bloqueio Embaixo c/ Faca da Mão Assistida na Base Atrás',
             videoId: 'video_id_exemplo',
-            nota: '<i>Dwitgubi-arae-sonnal-geodeureo-bakkat-makgi</i> = Base Atrás-embaixo-mão em faca-assistido-externo-bloqueio',
+            nota: '<i>Dwitgubi-arae-sonnal-geodeureo-bakkat-makgi</i> = Base Atrás-embaixo-Faca da Mão-assistido-externo-bloqueio',
               notaId: 4
           },
           {
